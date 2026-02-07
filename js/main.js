@@ -180,17 +180,23 @@ function initContactForm() {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(form);
-    const data = Object.fromEntries(formData);
+    const formData = new URLSearchParams(new FormData(form));
+    formData.set('form-name', 'contact');
 
-    // In a real app, you'd send this to a server
-    console.log('Form submitted:', data);
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData.toString()
+      });
+      showToast('Thank you for your message! We\'ll get back to you soon.');
+    } catch (error) {
+      showToast('Something went wrong. Please try again.', 'error');
+    }
 
-    // Show success message
-    showToast('Thank you for your message! We\'ll get back to you soon.');
     form.reset();
   });
 }

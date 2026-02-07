@@ -79,16 +79,6 @@
       "subcategory": "valentines-day",
       "featured": false,
       "inStock": true
-    },
-    {
-      "price": 1.24,
-      "subcategory": "halloween",
-      "featured": true,
-      "inStock": true,
-      "name": "kitty card test!!!!",
-      "description": "What a wonderful card",
-      "category": "holiday",
-      "image": "images/img_0591.jpeg"
     }
   ]
 }

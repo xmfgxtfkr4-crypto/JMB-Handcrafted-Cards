@@ -89,6 +89,16 @@
       "description": "What a wonderful card",
       "category": "holiday",
       "image": "images/img_0591.jpeg"
+    },
+    {
+      "price": 0.5,
+      "subcategory": "",
+      "featured": false,
+      "inStock": true,
+      "image": "images/logo.png",
+      "name": "logo card!!1",
+      "description": "nothing",
+      "category": "birthday"
     }
   ]
 }

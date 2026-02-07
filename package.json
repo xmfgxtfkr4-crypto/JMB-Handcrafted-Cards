@@ -1,0 +1,11 @@
+{
+  "name": "jmb-handcrafted-cards",
+  "version": "1.0.0",
+  "description": "E-commerce website for JMB Handcrafted Cards",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  }
+}

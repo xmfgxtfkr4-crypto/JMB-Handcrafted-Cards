@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Netlify
+.netlify/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/

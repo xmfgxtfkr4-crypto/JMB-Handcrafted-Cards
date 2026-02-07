@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - JMB Handcrafted Cards</title>
+  <meta name="description" content="Get in touch with JMB Handcrafted Cards. We'd love to hear from you!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">JMB <span>Cards</span></a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <a href="cart.html" class="cart-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
+          <span class="cart-count hidden">0</span>
+        </a>
+        <button class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h1>Get in Touch</h1>
+        <p>We'd love to hear from you!</p>
+      </div>
+
+      <div class="contact-content">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required placeholder="What is this regarding?">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <p>Prefer email? Reach us directly at:</p>
+          <p><a href="mailto:hello@jmbcards.com">hello@jmbcards.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" style="background-color: var(--color-light-gray);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="contact-content">
+        <div style="text-align: left;">
+          <h4>How long does shipping take?</h4>
+          <p style="color: var(--color-text-light); margin-bottom: var(--spacing-md);">
+            Orders typically ship within 1-2 business days and arrive within 3-5 business days.
+          </p>
+
+          <h4>Do you offer custom orders?</h4>
+          <p style="color: var(--color-text-light); margin-bottom: var(--spacing-md);">
+            Yes! We love creating custom cards. Contact us with your ideas and we'll work together to create something special.
+          </p>
+
+          <h4>What is your return policy?</h4>
+          <p style="color: var(--color-text-light); margin-bottom: var(--spacing-md);">
+            Due to the handmade nature of our products, we don't accept returns. However, if your order arrives damaged, please contact us immediately and we'll make it right.
+          </p>
+
+          <h4>Can I see a card before I buy?</h4>
+          <p style="color: var(--color-text-light);">
+            Each product page shows detailed photos of the card. If you need additional images or have questions about a specific card, feel free to reach out!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>JMB Cards</h4>
+          <p style="color: rgba(255,255,255,0.7);">Beautiful handcrafted cards for every occasion.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="shop.html">Birthday</a></li>
+            <li><a href="shop.html">Thank You</a></li>
+            <li><a href="shop.html">Holiday</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 JMB Handcrafted Cards. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -3,6 +3,10 @@
 // Cart stored in localStorage
 const CART_KEY = 'jmb_cart';
 
+// Shipping
+const SHIPPING_FLAT_RATE = 4.99;
+const FREE_SHIPPING_THRESHOLD = 35;
+
 // Get cart from localStorage
 function getCart() {
   const cart = localStorage.getItem(CART_KEY);
@@ -65,10 +69,22 @@ function updateQuantity(productId, quantity) {
   return cart;
 }
 
-// Get cart total
-function getCartTotal() {
+// Get cart subtotal (items only)
+function getCartSubtotal() {
   const cart = getCart();
   return cart.reduce((total, item) => total + (item.price * item.quantity), 0);
+}
+
+// Get shipping cost
+function getShippingCost() {
+  const subtotal = getCartSubtotal();
+  if (subtotal === 0) return 0;
+  return subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : SHIPPING_FLAT_RATE;
+}
+
+// Get cart total (subtotal + shipping)
+function getCartTotal() {
+  return getCartSubtotal() + getShippingCost();
 }
 
 // Get cart item count
@@ -182,12 +198,34 @@ function renderCartItems() {
 // Update cart summary
 function updateCartSummary() {
   const subtotalEl = document.getElementById('cart-subtotal');
+  const shippingEl = document.getElementById('cart-shipping');
+  const shippingNoteEl = document.getElementById('shipping-note');
   const totalEl = document.getElementById('cart-total');
 
   if (subtotalEl && totalEl) {
-    const total = getCartTotal();
-    subtotalEl.textContent = formatPrice(total);
+    const subtotal = getCartSubtotal();
+    const shipping = getShippingCost();
+    const total = subtotal + shipping;
+
+    subtotalEl.textContent = formatPrice(subtotal);
     totalEl.textContent = formatPrice(total);
+
+    if (shippingEl) {
+      shippingEl.textContent = shipping === 0 ? 'Free' : formatPrice(shipping);
+    }
+
+    if (shippingNoteEl) {
+      if (shipping > 0) {
+        const remaining = (FREE_SHIPPING_THRESHOLD - subtotal).toFixed(2);
+        shippingNoteEl.textContent = `Add $${remaining} more for free shipping!`;
+        shippingNoteEl.style.display = 'block';
+      } else if (subtotal > 0) {
+        shippingNoteEl.textContent = 'You qualify for free shipping!';
+        shippingNoteEl.style.display = 'block';
+      } else {
+        shippingNoteEl.style.display = 'none';
+      }
+    }
   }
 }
 
@@ -244,6 +282,8 @@ function initPayPal() {
       return actions.order.capture().then(async function(details) {
         // Get cart items before clearing
         const cartItems = getCart();
+        const orderSubtotal = getCartSubtotal().toFixed(2);
+        const orderShipping = getShippingCost().toFixed(2);
         const orderTotal = getCartTotal().toFixed(2);
 
         // Send order notification
@@ -255,6 +295,8 @@ function initPayPal() {
             },
             body: JSON.stringify({
               items: cartItems,
+              subtotal: orderSubtotal,
+              shipping: orderShipping,
               total: orderTotal,
               customerEmail: details.payer.email_address,
               customerName: details.payer.name ?

@@ -116,6 +116,20 @@
     </div>
   </footer>
 
+  <!-- Hidden Netlify Form for order notifications -->
+  <form name="order-notification" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input name="bot-field">
+    <input name="transaction-id">
+    <input name="customer-email">
+    <input name="customer-name">
+    <input name="order-items">
+    <input name="subtotal">
+    <input name="shipping">
+    <input name="total">
+    <input name="mailing-list">
+    <input name="order-date">
+  </form>
+
   <!-- PayPal SDK - Replace YOUR_CLIENT_ID with your actual PayPal Client ID -->
   <!-- For testing, use sandbox mode. For production, change to live credentials -->
   <script src="https://www.paypal.com/sdk/js?client-id=AZwRXnU40VCxVLe8oJeyUM612SVCyIQaDGkK4Raw6S85x99Of2vOA7QUJfABbiUt1y22PMSAspCj74sv&currency=USD"></script>

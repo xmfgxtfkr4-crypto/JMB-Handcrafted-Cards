@@ -287,27 +287,34 @@ function initPayPal() {
         const orderTotal = getCartTotal().toFixed(2);
         const mailingListOptIn = document.getElementById('cart-mailing-list')?.checked || false;
 
-        // Send order notification
+        // Send order notification via Netlify Forms
         try {
-          await fetch('/api/order-notification', {
+          const itemsList = cartItems.map(item =>
+            `${item.name} x${item.quantity} - $${(item.price * item.quantity).toFixed(2)}`
+          ).join(' | ');
+
+          const customerName = details.payer.name ?
+            `${details.payer.name.given_name} ${details.payer.name.surname}` : 'Not provided';
+
+          const formData = new URLSearchParams({
+            'form-name': 'order-notification',
+            'transaction-id': details.id || 'N/A',
+            'customer-email': details.payer.email_address,
+            'customer-name': customerName,
+            'order-items': itemsList,
+            'subtotal': orderSubtotal,
+            'shipping': orderShipping,
+            'total': orderTotal,
+            'mailing-list': mailingListOptIn ? 'Yes' : 'No',
+            'order-date': new Date().toLocaleString()
+          });
+
+          await fetch('/', {
             method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-              items: cartItems,
-              subtotal: orderSubtotal,
-              shipping: orderShipping,
-              total: orderTotal,
-              customerEmail: details.payer.email_address,
-              customerName: details.payer.name ?
-                `${details.payer.name.given_name} ${details.payer.name.surname}` : null,
-              transactionId: details.id,
-              mailingListOptIn: mailingListOptIn
-            })
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: formData.toString()
           });
         } catch (error) {
-          // Log error but don't block the success flow
           console.error('Failed to send order notification:', error);
         }
 

@@ -3,137 +3,74 @@
 const products = [
   {
     id: 1,
-    name: "Birthday Wishes",
-    category: "birthday",
-    price: 8.99,
-    image: "images/birthday-wishes.jpg",
-    description: "Hand-painted watercolor birthday card with floral design",
+    name: "Quite a Catch",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2114.jpeg",
+    description: "Baseball-themed Valentine with embossed details - \"You're quite a catch, valentine!\"",
     featured: true
   },
   {
     id: 2,
-    name: "Celebration Balloons",
-    category: "birthday",
-    price: 7.99,
-    image: "images/celebration-balloons.jpg",
-    description: "Colorful balloon design with gold foil accents",
-    featured: false
+    name: "You've Got Game",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2115.jpeg",
+    description: "Basketball-themed Valentine with wood court detail - \"You've got game, valentine!\"",
+    featured: true
   },
   {
     id: 3,
-    name: "Heartfelt Thanks",
-    category: "thank-you",
-    price: 6.99,
-    image: "images/heartfelt-thanks.jpg",
-    description: "Elegant thank you card with hand-lettered calligraphy",
+    name: "Touchdown",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2116.jpeg",
+    description: "Football-themed Valentine with textured leather footballs - \"You're a touchdown in my playbook!\"",
     featured: true
   },
   {
     id: 4,
-    name: "Grateful Heart",
-    category: "thank-you",
-    price: 7.49,
-    image: "images/grateful-heart.jpg",
-    description: "Pressed flower design with delicate paper texture",
-    featured: false
-  },
-  {
-    id: 5,
-    name: "Winter Wonderland",
-    category: "holiday",
-    price: 9.99,
-    image: "images/winter-wonderland.jpg",
-    description: "Snowy scene with hand-cut paper layers",
+    name: "Above Par",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2117.jpeg",
+    description: "Golf-themed Valentine with putting green design - \"You are above par, valentine!\"",
     featured: true
   },
   {
+    id: 5,
+    name: "Perfect 10",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2118.jpeg",
+    description: "Gymnastics-themed Valentine with elegant silhouettes - \"You are a perfect 10!\"",
+    featured: false
+  },
+  {
     id: 6,
-    name: "Holiday Joy",
-    category: "holiday",
-    price: 8.49,
-    image: "images/holiday-joy.jpg",
-    description: "Festive holly and berries with metallic details",
+    name: "Berry Sweet (Pink)",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2133.jpeg",
+    description: "Strawberry hearts Valentine with pink stripes and stamp edge detail",
     featured: false
   },
   {
     id: 7,
-    name: "Season's Greetings",
-    category: "holiday",
-    price: 8.99,
-    image: "images/seasons-greetings.jpg",
-    description: "Classic holiday design with embossed snowflakes",
+    name: "Berry Sweet (Gingham)",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2142.jpeg",
+    description: "Strawberry hearts Valentine with classic gingham and polka dot pattern",
     featured: false
   },
   {
     id: 8,
-    name: "Love & Comfort",
-    category: "sympathy",
-    price: 7.99,
-    image: "images/love-comfort.jpg",
-    description: "Gentle watercolor design for difficult times",
-    featured: false
-  },
-  {
-    id: 9,
-    name: "Peaceful Thoughts",
-    category: "sympathy",
-    price: 7.99,
-    image: "images/peaceful-thoughts.jpg",
-    description: "Serene landscape with soft pastel tones",
-    featured: false
-  },
-  {
-    id: 10,
-    name: "New Beginnings",
-    category: "congratulations",
-    price: 8.49,
-    image: "images/new-beginnings.jpg",
-    description: "Celebrate achievements with elegant gold accents",
-    featured: true
-  },
-  {
-    id: 11,
-    name: "Way to Go!",
-    category: "congratulations",
-    price: 7.99,
-    image: "images/way-to-go.jpg",
-    description: "Fun confetti design for any celebration",
-    featured: false
-  },
-  {
-    id: 12,
-    name: "Thinking of You",
-    category: "just-because",
-    price: 6.99,
-    image: "images/thinking-of-you.jpg",
-    description: "Simple yet heartfelt botanical illustration",
-    featured: false
-  },
-  {
-    id: 13,
-    name: "Hello Sunshine",
-    category: "just-because",
-    price: 6.49,
-    image: "images/hello-sunshine.jpg",
-    description: "Bright and cheerful sunflower design",
-    featured: false
-  },
-  {
-    id: 14,
-    name: "Baby Welcome",
-    category: "baby",
-    price: 8.99,
-    image: "images/baby-welcome.jpg",
-    description: "Sweet woodland animals for new arrivals",
-    featured: false
-  },
-  {
-    id: 15,
-    name: "Little One",
-    category: "baby",
-    price: 8.49,
-    image: "images/little-one.jpg",
-    description: "Soft pastel design with hand-drawn stars",
+    name: "From One Fruit to Another",
+    category: "valentine",
+    price: 5.00,
+    image: "images/IMG_2146.jpeg",
+    description: "Elegant botanical fruit arrangement with watercolor style - \"From one fruit to another\"",
     featured: false
   }
 ];

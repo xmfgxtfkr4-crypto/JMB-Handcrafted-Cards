@@ -39,7 +39,7 @@ function renderProductCard(product) {
   return `
     <div class="product-card fade-in" data-category="${product.category}">
       <div class="product-image">
-        <div class="placeholder">Image</div>
+        <img src="${product.image}" alt="${product.name}">
       </div>
       <div class="product-info">
         <span class="product-category">${formatCategoryName(product.category)}</span>

@@ -2,7 +2,7 @@
   "products": [
     {
       "name": "Quite a Catch",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2114.jpeg",
       "description": "Baseball-themed Valentine with embossed details - \"You're quite a catch, valentine!\"",
       "category": "holiday",
@@ -12,7 +12,7 @@
     },
     {
       "name": "You've Got Game",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2115.jpeg",
       "description": "Basketball-themed Valentine with wood court detail - \"You've got game, valentine!\"",
       "category": "holiday",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Touchdown",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2116.jpeg",
       "description": "Football-themed Valentine with textured leather footballs - \"You're a touchdown in my playbook!\"",
       "category": "holiday",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Above Par",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2117.jpeg",
       "description": "Golf-themed Valentine with putting green design - \"You are above par, valentine!\"",
       "category": "holiday",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Perfect 10",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2118.jpeg",
       "description": "Gymnastics-themed Valentine with elegant silhouettes - \"You are a perfect 10!\"",
       "category": "holiday",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Berry Sweet (Pink)",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2133.jpeg",
       "description": "Strawberry hearts Valentine with pink stripes and stamp edge detail",
       "category": "holiday",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Berry Sweet (Gingham)",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2142.jpeg",
       "description": "Strawberry hearts Valentine with classic gingham and polka dot pattern",
       "category": "holiday",
@@ -72,13 +72,23 @@
     },
     {
       "name": "From One Fruit to Another",
-      "price": 5.00,
+      "price": 5,
       "image": "images/IMG_2146.jpeg",
       "description": "Elegant botanical fruit arrangement with watercolor style - \"From one fruit to another\"",
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": false,
       "inStock": true
+    },
+    {
+      "price": 1.24,
+      "subcategory": "fourth-of-july",
+      "featured": true,
+      "inStock": true,
+      "name": "Test!!!",
+      "description": "What a wonderful card",
+      "category": "holiday",
+      "image": "images/img_0591.jpeg"
     }
   ]
 }

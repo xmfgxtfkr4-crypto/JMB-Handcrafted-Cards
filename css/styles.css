@@ -126,7 +126,7 @@ p {
 }
 
 .logo img {
-  height: 120px;
+  height: 200px;
   width: auto;
 }
 
@@ -212,53 +212,45 @@ p {
 /* ===== Hero Section ===== */
 .hero {
   background: linear-gradient(135deg, var(--color-light-gray) 0%, var(--color-white) 100%);
-  padding: var(--spacing-xxl) 0;
+  padding: 5rem 0;
   text-align: center;
 }
 
-.hero h1 {
-  font-size: 2.75rem;
-  margin-bottom: var(--spacing-xs);
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.hero h1 span {
-  color: var(--color-accent);
+.hero .hero-lead {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  line-height: 1.3;
+  margin: 0;
 }
 
-.hero p {
-  font-size: 1.25rem;
-  color: var(--color-text-light);
-  max-width: 600px;
-  margin: 0 auto var(--spacing-sm);
+.hero .hero-lead + .hero-lead {
+  margin-bottom: 2.5rem;
 }
 
 .hero .hero-tagline {
-  font-size: 1.75rem;
-  font-weight: 500;
-  color: var(--color-charcoal);
-  margin-bottom: var(--spacing-md);
-}
-
-.hero .hero-emphasis {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-style: italic;
   color: var(--color-accent);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.02em;
 }
 
 .hero .hero-description {
-  max-width: 500px;
-  margin: 0 auto var(--spacing-lg);
-}
-
-.hero .hero-description p {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1rem;
   color: var(--color-text-light);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
 }
 
 .hero .hero-description strong {
   color: var(--color-charcoal);
+  font-weight: 600;
 }
 
 /* ===== Buttons ===== */
@@ -703,12 +695,16 @@ p {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.75rem; }
 
-  .hero h1 {
-    font-size: 2.25rem;
+  .hero .hero-lead {
+    font-size: 1.75rem;
   }
 
-  .hero p {
-    font-size: 1rem;
+  .hero .hero-tagline {
+    font-size: 1.1rem;
+  }
+
+  .logo img {
+    height: 140px;
   }
 
   .nav-links {

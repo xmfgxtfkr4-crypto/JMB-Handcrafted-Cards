@@ -97,8 +97,9 @@
       <div class="newsletter-box">
         <h2>Stay in the Loop</h2>
         <p>Sign up for our mailing list to get updates on new cards, exclusive deals, and more.</p>
-        <form id="newsletter-form" class="newsletter-form">
-          <input type="email" id="newsletter-email" placeholder="Your email address" required>
+        <form id="newsletter-form" name="mailing-list" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form">
+          <input name="bot-field" type="hidden">
+          <input type="email" name="email" id="newsletter-email" placeholder="Your email address" required>
           <button type="submit" class="btn btn-primary">Subscribe</button>
         </form>
         <p class="newsletter-disclaimer">No spam, ever. Unsubscribe anytime.</p>

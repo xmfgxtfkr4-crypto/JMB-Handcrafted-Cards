@@ -215,15 +215,25 @@ function initNewsletterForm() {
   const form = document.getElementById('newsletter-form');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    const email = document.getElementById('newsletter-email').value;
+    const formData = new URLSearchParams({
+      'form-name': 'mailing-list',
+      'email': document.getElementById('newsletter-email').value
+    });
 
-    // Store signup (can be sent to a backend later)
-    console.log('Newsletter signup:', email);
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData.toString()
+      });
+      showToast('Thanks for subscribing! You\'ll hear from us soon.');
+    } catch (error) {
+      showToast('Something went wrong. Please try again.', 'error');
+    }
 
-    showToast('Thanks for subscribing! You\'ll hear from us soon.');
     form.reset();
   });
 }

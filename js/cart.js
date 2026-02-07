@@ -296,11 +296,27 @@ function initPayPal() {
           const customerName = details.payer.name ?
             `${details.payer.name.given_name} ${details.payer.name.surname}` : 'Not provided';
 
+          // Get shipping address from PayPal
+          const shipping = details.purchase_units?.[0]?.shipping;
+          let shippingAddress = 'Not provided';
+          if (shipping?.address) {
+            const addr = shipping.address;
+            const name = shipping.name?.full_name || customerName;
+            shippingAddress = [
+              name,
+              addr.address_line_1,
+              addr.address_line_2,
+              `${addr.admin_area_2 || ''}, ${addr.admin_area_1 || ''} ${addr.postal_code || ''}`,
+              addr.country_code
+            ].filter(Boolean).join(', ');
+          }
+
           const formData = new URLSearchParams({
             'form-name': 'order-notification',
             'transaction-id': details.id || 'N/A',
-            'customer-email': details.payer.email_address,
             'customer-name': customerName,
+            'customer-email': details.payer.email_address,
+            'shipping-address': shippingAddress,
             'order-items': itemsList,
             'subtotal': orderSubtotal,
             'shipping': orderShipping,

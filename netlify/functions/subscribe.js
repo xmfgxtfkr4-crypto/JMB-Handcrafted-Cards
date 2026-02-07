@@ -47,7 +47,7 @@ exports.handler = async (event) => {
     }
 
     // Find the JMB Cards group
-    const groupsRes = await mailerliteRequest('/groups?filter[name]=JMB Cards', 'GET', null, apiToken);
+    const groupsRes = await mailerliteRequest('/groups?filter[name]=JMB%20Cards', 'GET', null, apiToken);
     let groupId = null;
     if (groupsRes.data?.data?.length > 0) {
       groupId = groupsRes.data.data[0].id;

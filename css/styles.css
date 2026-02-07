@@ -701,6 +701,19 @@ p {
   font-size: 0.875rem;
 }
 
+.admin-link {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.admin-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* ===== Responsive Design ===== */
 @media (max-width: 1024px) {
   .cart-container {

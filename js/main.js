@@ -210,6 +210,24 @@ function initSmoothScroll() {
   });
 }
 
+// Newsletter form handling
+function initNewsletterForm() {
+  const form = document.getElementById('newsletter-form');
+  if (!form) return;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const email = document.getElementById('newsletter-email').value;
+
+    // Store signup (can be sent to a backend later)
+    console.log('Newsletter signup:', email);
+
+    showToast('Thanks for subscribing! You\'ll hear from us soon.');
+    form.reset();
+  });
+}
+
 // Initialize all functionality
 document.addEventListener('DOMContentLoaded', async function() {
   initMobileMenu();
@@ -224,4 +242,5 @@ document.addEventListener('DOMContentLoaded', async function() {
   initCategoryFilter();
   renderShopProducts();
   initContactForm();
+  initNewsletterForm();
 });

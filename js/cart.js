@@ -171,7 +171,7 @@ function renderCartItems() {
   cartItemsContainer.innerHTML = cart.map(item => `
     <div class="cart-item" data-id="${item.id}">
       <div class="cart-item-image">
-        <div class="placeholder">Image</div>
+        <img src="${item.image}" alt="${item.name}">
       </div>
       <div class="cart-item-details">
         <h4>${item.name}</h4>
@@ -285,6 +285,7 @@ function initPayPal() {
         const orderSubtotal = getCartSubtotal().toFixed(2);
         const orderShipping = getShippingCost().toFixed(2);
         const orderTotal = getCartTotal().toFixed(2);
+        const mailingListOptIn = document.getElementById('cart-mailing-list')?.checked || false;
 
         // Send order notification
         try {
@@ -301,7 +302,8 @@ function initPayPal() {
               customerEmail: details.payer.email_address,
               customerName: details.payer.name ?
                 `${details.payer.name.given_name} ${details.payer.name.surname}` : null,
-              transactionId: details.id
+              transactionId: details.id,
+              mailingListOptIn: mailingListOptIn
             })
           });
         } catch (error) {

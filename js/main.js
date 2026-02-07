@@ -218,18 +218,20 @@ function initNewsletterForm() {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    const formData = new URLSearchParams({
-      'form-name': 'mailing-list',
-      'email': document.getElementById('newsletter-email').value
-    });
+    const email = document.getElementById('newsletter-email').value;
 
     try {
-      await fetch('/', {
+      const res = await fetch('/api/subscribe', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: formData.toString()
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
       });
-      showToast('Thanks for subscribing! You\'ll hear from us soon.');
+
+      if (res.ok) {
+        showToast('Thanks for subscribing! You\'ll hear from us soon.');
+      } else {
+        showToast('Something went wrong. Please try again.', 'error');
+      }
     } catch (error) {
       showToast('Something went wrong. Please try again.', 'error');
     }

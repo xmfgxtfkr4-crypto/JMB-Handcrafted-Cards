@@ -330,6 +330,14 @@ function initPayPal() {
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: formData.toString()
           });
+          // Subscribe to mailing list if opted in
+          if (mailingListOptIn) {
+            fetch('/api/subscribe', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ email: details.payer.email_address })
+            }).catch(() => {});
+          }
         } catch (error) {
           console.error('Failed to send order notification:', error);
         }

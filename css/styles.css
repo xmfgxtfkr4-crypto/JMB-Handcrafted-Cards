@@ -126,7 +126,7 @@ p {
 }
 
 .logo img {
-  height: 60px;
+  height: 120px;
   width: auto;
 }
 
@@ -217,8 +217,8 @@ p {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: var(--spacing-md);
+  font-size: 2.75rem;
+  margin-bottom: var(--spacing-xs);
 }
 
 .hero h1 span {
@@ -229,7 +229,36 @@ p {
   font-size: 1.25rem;
   color: var(--color-text-light);
   max-width: 600px;
+  margin: 0 auto var(--spacing-sm);
+}
+
+.hero .hero-tagline {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--color-charcoal);
+  margin-bottom: var(--spacing-md);
+}
+
+.hero .hero-emphasis {
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero .hero-description {
+  max-width: 500px;
   margin: 0 auto var(--spacing-lg);
+}
+
+.hero .hero-description p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-text-light);
+}
+
+.hero .hero-description strong {
+  color: var(--color-charcoal);
 }
 
 /* ===== Buttons ===== */

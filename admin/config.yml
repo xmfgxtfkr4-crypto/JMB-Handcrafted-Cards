@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "products"
+    label: "Cards"
+    files:
+      - name: "cards"
+        label: "All Cards"
+        file: "data/products.json"
+        fields:
+          - name: "products"
+            label: "Cards"
+            widget: "list"
+            summary: "{{fields.name}} - ${{fields.price}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "number", value_type: "float", min: 0, step: 0.01, default: 5.00 }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Birthday", value: "birthday" }
+                  - { label: "Congratulations", value: "congratulations" }
+                  - { label: "Holiday", value: "holiday" }
+                  - { label: "Thank You", value: "thank-you" }
+                  - { label: "Thinking of You", value: "thinking-of-you" }
+              - label: "Holiday Type (only if Holiday category)"
+                name: "subcategory"
+                widget: "select"
+                required: false
+                default: ""
+                options:
+                  - { label: "Not a Holiday Card", value: "" }
+                  - { label: "Valentine's Day", value: "valentines-day" }
+                  - { label: "Easter", value: "easter" }
+                  - { label: "Mother's Day", value: "mothers-day" }
+                  - { label: "Father's Day", value: "fathers-day" }
+                  - { label: "4th of July", value: "fourth-of-july" }
+                  - { label: "Halloween", value: "halloween" }
+                  - { label: "Thanksgiving", value: "thanksgiving" }
+                  - { label: "Christmas", value: "christmas" }
+                  - { label: "Hanukkah", value: "hanukkah" }
+                  - { label: "New Year's", value: "new-years" }
+              - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
+              - { label: "In Stock", name: "inStock", widget: "boolean", default: true }

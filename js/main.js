@@ -211,10 +211,13 @@ function initSmoothScroll() {
 }
 
 // Initialize all functionality
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
   initMobileMenu();
   setActiveNavLink();
   initSmoothScroll();
+
+  // Load products first, then render
+  await loadProducts();
 
   // Page-specific initialization
   renderFeaturedProducts();

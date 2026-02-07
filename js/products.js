@@ -1,87 +1,6 @@
 // JMB Handcrafted Cards - Product Data
 
-const products = [
-  {
-    id: 1,
-    name: "Quite a Catch",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2114.jpeg",
-    description: "Baseball-themed Valentine with embossed details - \"You're quite a catch, valentine!\"",
-    featured: true
-  },
-  {
-    id: 2,
-    name: "You've Got Game",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2115.jpeg",
-    description: "Basketball-themed Valentine with wood court detail - \"You've got game, valentine!\"",
-    featured: true
-  },
-  {
-    id: 3,
-    name: "Touchdown",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2116.jpeg",
-    description: "Football-themed Valentine with textured leather footballs - \"You're a touchdown in my playbook!\"",
-    featured: true
-  },
-  {
-    id: 4,
-    name: "Above Par",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2117.jpeg",
-    description: "Golf-themed Valentine with putting green design - \"You are above par, valentine!\"",
-    featured: true
-  },
-  {
-    id: 5,
-    name: "Perfect 10",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2118.jpeg",
-    description: "Gymnastics-themed Valentine with elegant silhouettes - \"You are a perfect 10!\"",
-    featured: false
-  },
-  {
-    id: 6,
-    name: "Berry Sweet (Pink)",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2133.jpeg",
-    description: "Strawberry hearts Valentine with pink stripes and stamp edge detail",
-    featured: false
-  },
-  {
-    id: 7,
-    name: "Berry Sweet (Gingham)",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2142.jpeg",
-    description: "Strawberry hearts Valentine with classic gingham and polka dot pattern",
-    featured: false
-  },
-  {
-    id: 8,
-    name: "From One Fruit to Another",
-    category: "holiday",
-    subcategory: "valentines-day",
-    price: 5.00,
-    image: "images/IMG_2146.jpeg",
-    description: "Elegant botanical fruit arrangement with watercolor style - \"From one fruit to another\"",
-    featured: false
-  }
-];
+let products = [];
 
 // Main categories
 const mainCategories = [
@@ -106,8 +25,26 @@ const holidaySubcategories = [
   { id: 'new-years', name: "New Year's" }
 ];
 
+// Load products from JSON file
+async function loadProducts() {
+  try {
+    const response = await fetch('/data/products.json');
+    const data = await response.json();
+    products = data.products.map((p, index) => ({
+      ...p,
+      id: index + 1
+    })).filter(p => p.inStock !== false); // Only show in-stock items
+    return products;
+  } catch (error) {
+    console.error('Error loading products:', error);
+    return [];
+  }
+}
+
 // Get all unique categories from products
-const categories = [...new Set(products.map(p => p.category))];
+function getCategories() {
+  return [...new Set(products.map(p => p.category))];
+}
 
 // Get featured products
 function getFeaturedProducts() {
@@ -125,7 +62,7 @@ function getProductsByCategory(category) {
 // Get products by subcategory
 function getProductsBySubcategory(subcategory) {
   if (!subcategory || subcategory === 'all') {
-    return products;
+    return products.filter(p => p.category === 'holiday');
   }
   return products.filter(p => p.subcategory === subcategory);
 }

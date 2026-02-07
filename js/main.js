@@ -36,13 +36,17 @@ function setActiveNavLink() {
 
 // Render product card HTML
 function renderProductCard(product) {
+  const displayCategory = product.subcategory
+    ? formatCategoryName(product.subcategory)
+    : formatCategoryName(product.category);
+
   return `
-    <div class="product-card fade-in" data-category="${product.category}">
+    <div class="product-card fade-in" data-category="${product.category}" data-subcategory="${product.subcategory || ''}">
       <div class="product-image">
         <img src="${product.image}" alt="${product.name}">
       </div>
       <div class="product-info">
-        <span class="product-category">${formatCategoryName(product.category)}</span>
+        <span class="product-category">${displayCategory}</span>
         <h3 class="product-name">${product.name}</h3>
         <p class="product-description">${product.description}</p>
         <div class="product-footer">
@@ -56,46 +60,72 @@ function renderProductCard(product) {
   `;
 }
 
+// Render empty state
+function renderEmptyState(categoryName) {
+  return `
+    <div class="empty-state">
+      <p>No ${categoryName} cards available right now.</p>
+      <p>Check back soon for new designs!</p>
+    </div>
+  `;
+}
+
 // Render featured products on homepage
 function renderFeaturedProducts() {
   const container = document.getElementById('featured-products');
   if (!container) return;
 
   const featured = getFeaturedProducts();
-  container.innerHTML = featured.map(renderProductCard).join('');
+  if (featured.length === 0) {
+    container.innerHTML = renderEmptyState('featured');
+  } else {
+    container.innerHTML = featured.map(renderProductCard).join('');
+  }
 }
 
+// Current filter state
+let currentCategory = 'all';
+let currentSubcategory = null;
+
 // Render all products on shop page
-function renderShopProducts(category = 'all') {
+function renderShopProducts(category = 'all', subcategory = null) {
   const container = document.getElementById('shop-products');
   if (!container) return;
 
-  const filteredProducts = getProductsByCategory(category);
+  let filteredProducts;
+  let categoryName = 'cards';
 
-  if (filteredProducts.length === 0) {
-    container.innerHTML = '<p class="text-center">No products found in this category.</p>';
-    return;
+  if (subcategory) {
+    filteredProducts = getProductsBySubcategory(subcategory);
+    categoryName = formatCategoryName(subcategory);
+  } else if (category && category !== 'all') {
+    filteredProducts = getProductsByCategory(category);
+    categoryName = formatCategoryName(category);
+  } else {
+    filteredProducts = products;
   }
 
-  container.innerHTML = filteredProducts.map(renderProductCard).join('');
+  if (filteredProducts.length === 0) {
+    container.innerHTML = renderEmptyState(categoryName);
+  } else {
+    container.innerHTML = filteredProducts.map(renderProductCard).join('');
+  }
 }
 
 // Initialize category filter
 function initCategoryFilter() {
   const filterContainer = document.getElementById('category-filter');
+  const subFilterContainer = document.getElementById('subcategory-filter');
   if (!filterContainer) return;
 
-  // Add "All" button
+  // Build main category buttons
   let filterHTML = '<button class="filter-btn active" data-category="all">All</button>';
-
-  // Add category buttons
-  categories.forEach(category => {
-    filterHTML += `<button class="filter-btn" data-category="${category}">${formatCategoryName(category)}</button>`;
+  mainCategories.forEach(cat => {
+    filterHTML += `<button class="filter-btn" data-category="${cat.id}">${cat.name}</button>`;
   });
-
   filterContainer.innerHTML = filterHTML;
 
-  // Add click handlers
+  // Add click handlers for main categories
   const filterBtns = filterContainer.querySelectorAll('.filter-btn');
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -103,8 +133,44 @@ function initCategoryFilter() {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
+      currentCategory = btn.dataset.category;
+      currentSubcategory = null;
+
+      // Show/hide subcategory filter for Holiday
+      if (subFilterContainer) {
+        if (currentCategory === 'holiday') {
+          renderSubcategoryFilter(subFilterContainer);
+          subFilterContainer.style.display = 'flex';
+        } else {
+          subFilterContainer.style.display = 'none';
+        }
+      }
+
       // Filter products
-      renderShopProducts(btn.dataset.category);
+      renderShopProducts(currentCategory, null);
+    });
+  });
+}
+
+// Render subcategory filter for holidays
+function renderSubcategoryFilter(container) {
+  let html = '<button class="filter-btn sub active" data-subcategory="all">All Holidays</button>';
+  holidaySubcategories.forEach(sub => {
+    html += `<button class="filter-btn sub" data-subcategory="${sub.id}">${sub.name}</button>`;
+  });
+  container.innerHTML = html;
+
+  // Add click handlers
+  const subBtns = container.querySelectorAll('.filter-btn');
+  subBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      subBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const subcategory = btn.dataset.subcategory;
+      currentSubcategory = subcategory === 'all' ? null : subcategory;
+
+      renderShopProducts('holiday', currentSubcategory);
     });
   });
 }

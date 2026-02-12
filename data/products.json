@@ -47,7 +47,7 @@
       "description": "Gymnastics-themed Valentine with elegant silhouettes - \"You are a perfect 10!\"",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": false,
+      "featured": true,
       "inventory": 1
     },
     {
@@ -57,7 +57,7 @@
       "description": "Strawberry hearts Valentine with pink stripes and stamp edge detail",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": false,
+      "featured": true,
       "inventory": 1
     },
     {

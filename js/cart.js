@@ -26,6 +26,11 @@ function addToCart(productId, quantity = 1) {
 
   if (!product) return false;
 
+  if (product.inventory <= 0) {
+    showToast(`${product.name} is out of stock`, 'error');
+    return false;
+  }
+
   const existingItem = cart.find(item => item.id === productId);
 
   if (existingItem) {
@@ -145,7 +150,22 @@ function renderCartItems() {
 
   if (!cartItemsContainer) return;
 
-  const cart = getCart();
+  let cart = getCart();
+
+  // Remove out-of-stock items from cart
+  const removedItems = [];
+  cart = cart.filter(item => {
+    const product = getProductById(item.id);
+    if (product && product.inventory <= 0) {
+      removedItems.push(item.name);
+      return false;
+    }
+    return true;
+  });
+  if (removedItems.length > 0) {
+    saveCart(cart);
+    showToast(`Removed out-of-stock items: ${removedItems.join(', ')}`, 'error');
+  }
 
   if (cart.length === 0) {
     cartItemsContainer.innerHTML = `
@@ -340,6 +360,23 @@ function initPayPal() {
           }
         } catch (error) {
           console.error('Failed to send order notification:', error);
+        }
+
+        // Update inventory
+        try {
+          await fetch('/.netlify/functions/update-inventory', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              items: cartItems.map(item => ({
+                name: item.name,
+                image: item.image,
+                quantity: item.quantity
+              }))
+            })
+          });
+        } catch (error) {
+          console.error('Failed to update inventory:', error);
         }
 
         // Clear cart on successful payment

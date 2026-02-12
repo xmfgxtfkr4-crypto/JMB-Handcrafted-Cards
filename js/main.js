@@ -40,8 +40,14 @@ function renderProductCard(product) {
     ? formatCategoryName(product.subcategory)
     : formatCategoryName(product.category);
 
+  const outOfStock = product.inventory <= 0;
+  const cardClass = outOfStock ? 'product-card fade-in out-of-stock' : 'product-card fade-in';
+  const buttonHTML = outOfStock
+    ? '<button class="btn btn-out-of-stock btn-small" disabled>Out of Stock</button>'
+    : `<button class="btn btn-primary btn-small" onclick="addToCart(${product.id})">Add to Cart</button>`;
+
   return `
-    <div class="product-card fade-in" data-category="${product.category}" data-subcategory="${product.subcategory || ''}">
+    <div class="${cardClass}" data-category="${product.category}" data-subcategory="${product.subcategory || ''}">
       <div class="product-image">
         <img src="${product.image}" alt="${product.name}">
       </div>
@@ -51,9 +57,7 @@ function renderProductCard(product) {
         <p class="product-description">${product.description}</p>
         <div class="product-footer">
           <span class="product-price">${formatPrice(product.price)}</span>
-          <button class="btn btn-primary btn-small" onclick="addToCart(${product.id})">
-            Add to Cart
-          </button>
+          ${buttonHTML}
         </div>
       </div>
     </div>

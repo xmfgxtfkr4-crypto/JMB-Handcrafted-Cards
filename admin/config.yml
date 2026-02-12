@@ -49,4 +49,4 @@ collections:
                   - { label: "Hanukkah", value: "hanukkah" }
                   - { label: "New Year's", value: "new-years" }
               - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
-              - { label: "In Stock", name: "inStock", widget: "boolean", default: true }
+              - { label: "Inventory", name: "inventory", widget: "number", value_type: "int", min: 0, default: 1 }

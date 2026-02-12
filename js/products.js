@@ -32,8 +32,9 @@ async function loadProducts() {
     const data = await response.json();
     products = data.products.map((p, index) => ({
       ...p,
-      id: index + 1
-    })).filter(p => p.inStock !== false); // Only show in-stock items
+      id: index + 1,
+      inventory: p.inventory != null ? p.inventory : 0
+    }));
     return products;
   } catch (error) {
     console.error('Error loading products:', error);

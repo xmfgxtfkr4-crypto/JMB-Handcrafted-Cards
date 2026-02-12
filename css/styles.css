@@ -937,3 +937,23 @@ p {
 .toast.success {
   background-color: var(--color-accent);
 }
+
+.toast.error {
+  background-color: #e74c3c;
+}
+
+/* ===== Out of Stock ===== */
+.product-card.out-of-stock .product-image img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.btn-out-of-stock {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 0.875rem;
+}

@@ -18,7 +18,7 @@
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
-      "inventory": 1
+      "inventory": 3
     },
     {
       "name": "Touchdown",
@@ -28,7 +28,7 @@
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Above Par",
@@ -38,7 +38,7 @@
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Perfect 10",

@@ -18,7 +18,7 @@
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
-      "inventory": 3
+      "inventory": 1
     },
     {
       "name": "Touchdown",
@@ -28,7 +28,7 @@
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "Above Par",
@@ -38,7 +38,7 @@
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "Perfect 10",
@@ -294,7 +294,7 @@
       "name": "Burgundy Rose",
       "price": 5,
       "image": "images/IMG_1561.jpeg",
-      "description": "Deep burgundy rose with embossed swirl background and matching envelope - \"Happy Birthday\"",
+      "description": "Deep burgundy rose with embossed swirl background and matching envelope - \"Happy Birthday\" ",
       "category": "birthday",
       "subcategory": "",
       "featured": false,

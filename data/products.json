@@ -322,7 +322,7 @@
     },
     {
       "name": "Golden Candles",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1903.jpeg",
       "description": "Five watercolor candles with gold foil flames on a sleek black-bordered birthday card. Other colors available by request.",
       "category": "birthday",
@@ -351,7 +351,7 @@
       "inventory": 1
     },
     {
-      "name": "Blue Chrysanthemum",
+      "name": "Chrysanthemum Birthday",
       "price": 4,
       "image": "images/IMG_1911.jpeg",
       "description": "Stunning blue chrysanthemum with green foliage on a minimalist black-bordered birthday card. Other colors available by request.",
@@ -401,7 +401,7 @@
       "inventory": 1
     },
     {
-      "name": "Cute Animal with Star Balloon",
+      "name": "New Baby with Star Balloon",
       "price": 4,
       "image": "images/IMG_2181.jpeg",
       "description": "Adorable kitten holding a star balloon on a sky blue background - \"A big welcome to your sweet girl\" Other colors available by request as well as baby boy option.",

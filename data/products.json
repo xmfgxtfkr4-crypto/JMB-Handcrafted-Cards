@@ -47,7 +47,7 @@
       "description": "Strawberry hearts Valentine with pink stripes and edge detail",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "name": "Peaceful Leaves",
-      "price": 3.49,
+      "price": 4,
       "image": "images/IMG_1287.jpeg",
       "description": "Teal-to-green ombre card with stamped botanical leaves - \"With sympathy.\" Other colors available by request.",
       "category": "thinking-of-you",

@@ -72,9 +72,9 @@
     },
     {
       "name": "Grateful for You",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_0012.jpeg",
-      "description": "Elegant teal card with white embossed roses and scalloped edge - \"Grateful for you\"",
+      "description": "Ink blended teal card with white embossed roses and scalloped edge - \"Grateful for you.\" ",
       "category": "thank-you",
       "subcategory": "",
       "featured": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Purple Daisies",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_0211.jpeg",
       "description": "Cheerful purple daisies with green leaves on a lavender-bordered birthday card",
       "category": "birthday",
@@ -91,10 +91,10 @@
       "inventory": 1
     },
     {
-      "name": "Shoot for the Moon",
-      "price": 5,
+      "name": "Congrats Graduate!",
+      "price": 4,
       "image": "images/IMG_0230.jpeg",
-      "description": "Graduation card with cap design and Les Brown quote - \"Shoot for the moon\" with gift card holder",
+      "description": "Graduation card with cap design and Les Brown quote - \"Shoot for the moon\" with gift card holder. School colors available.",
       "category": "congratulations",
       "subcategory": "",
       "featured": false,
@@ -102,7 +102,7 @@
     },
     {
       "name": "Golden Dahlia",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_0378.jpeg",
       "description": "Vibrant orange dahlia bloom with green foliage on an emerald-bordered card with gold accent",
       "category": "thinking-of-you",
@@ -111,20 +111,20 @@
       "inventory": 1
     },
     {
-      "name": "Garden Party",
-      "price": 5,
+      "name": "Embossed Wild Flowers",
+      "price": 4,
       "image": "images/IMG_0396.jpeg",
-      "description": "Embossed pink wildflowers and ferns on a hot pink-bordered card with soft watercolor finish",
+      "description": "Embossed pink wildflowers and leaves on a hot pink-bordered card with soft watercolor finish",
       "category": "thinking-of-you",
       "subcategory": "",
       "featured": false,
       "inventory": 1
     },
     {
-      "name": "Floral Silhouette",
-      "price": 5,
+      "name": "Lily of the Valley Silhouette",
+      "price": 4,
       "image": "images/IMG_0407.jpeg",
-      "description": "Bold pink card with intricate white floral die-cut silhouette and \"Happy Birthday\" sentiment",
+      "description": "Bold pink card with intricate white floral die-cut silhouette and \"Happy Birthday\" sentiment. Also available in different colors.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
@@ -132,12 +132,12 @@
     },
     {
       "name": "Tulip Crate",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_0417.jpeg",
       "description": "Dimensional pink tulips in a golden crate with sky blue oval backdrop - \"Happy Birthday!\"",
       "category": "birthday",
       "subcategory": "",
-      "featured": false,
+      "featured": true,
       "inventory": 1
     },
     {
@@ -145,7 +145,7 @@
       "price": 5,
       "image": "images/IMG_0788.jpeg",
       "description": "Holographic-bordered card with delicate silver embossed roses - \"Happy Anniversary\"",
-      "category": "thinking-of-you",
+      "category": "congratulations",
       "subcategory": "",
       "featured": false,
       "inventory": 1
@@ -155,7 +155,7 @@
       "price": 5,
       "image": "images/IMG_0790.jpeg",
       "description": "Elegant white card with gold embossed floral bouquet and black border - \"Happy Anniversary\"",
-      "category": "thinking-of-you",
+      "category": "congratulations",
       "subcategory": "",
       "featured": false,
       "inventory": 1

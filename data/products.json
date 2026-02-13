@@ -411,40 +411,10 @@
       "inventory": 1
     },
     {
-      "name": "Peony Birthday (Green)",
-      "price": 5,
-      "image": "images/IMG_4729.jpeg",
-      "description": "Pink peonies on a scalloped white panel with green watercolor border - \"Happy Birthday\"",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Peony Birthday (Pink)",
-      "price": 5,
+      "name": "Carnation Birthday",
+      "price": 4,
       "image": "images/IMG_4730.jpeg",
-      "description": "Coral peonies on a scalloped white panel with pink watercolor border - \"Happy Birthday!\"",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Peony Birthday (Red)",
-      "price": 5,
-      "image": "images/IMG_4731.jpeg",
-      "description": "Red peonies on a scalloped white panel with bold red watercolor border - \"Happy Birthday!\"",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Celebrating You",
-      "price": 5,
-      "image": "images/IMG_4749.jpeg",
-      "description": "Red roses in opposing corners with elegant calligraphy on a dark-bordered card - \"Celebrating You\"",
+      "description": "Coral carnations on a scalloped white panel with matching watercolor border - \"Happy Birthday!\" Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
@@ -452,17 +422,17 @@
     },
     {
       "name": "Heartstrings",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_4755.jpeg",
-      "description": "Rustic Valentine with kraft wood-grain background, red heart and twine bow - \"Happy Valentine's Day\"",
+      "description": "Rustic card with kraft wood-grain background, red heart and twine bow - \"Happy Valentine's Day.\" Also available as a birthday card.",
       "category": "holiday",
-      "subcategory": "valentines-day",
+      "subcategory": null,
       "featured": false,
       "inventory": 1
     },
     {
       "name": "Iris in Bloom",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_4769.jpeg",
       "description": "Vivid purple iris with green stems in a bold black triple-matted frame with embossed envelope - \"Happy Birthday\"",
       "category": "birthday",
@@ -471,18 +441,18 @@
       "inventory": 1
     },
     {
-      "name": "Patchwork Party",
-      "price": 5,
+      "name": "Patchwork Grid",
+      "price": 4,
       "image": "images/IMG_4840.jpeg",
-      "description": "Colorful patchwork grid of striped and confetti squares on a hot pink birthday card",
+      "description": "Colorful patchwork grid of striped and confetti squares on a hot pink birthday card. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
       "inventory": 1
     },
     {
-      "name": "Sunny Daffodil",
-      "price": 5,
+      "name": "Sunny Daffodil Birthday",
+      "price": 4,
       "image": "images/IMG_4880.jpeg",
       "description": "Bright yellow daffodil with orange trumpet on a clean black-bordered birthday card",
       "category": "birthday",
@@ -492,7 +462,7 @@
     },
     {
       "name": "Kisses and Lashes",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_4900.jpeg",
       "description": "Playful lipstick kisses and eyelash stamps in red and pink on a bold hot pink birthday card",
       "category": "birthday",

@@ -2,67 +2,57 @@
   "products": [
     {
       "name": "Quite a Catch",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_2114.jpeg",
       "description": "Baseball-themed Valentine with embossed details - \"You're quite a catch, valentine!\"",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
       "name": "You've Got Game",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_2115.jpeg",
       "description": "Basketball-themed Valentine with wood court detail - \"You've got game, valentine!\"",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
-      "name": "Touchdown",
-      "price": 5,
+      "name": "Touchdown Valentine",
+      "price": 4,
       "image": "images/IMG_2116.jpeg",
       "description": "Football-themed Valentine with textured leather footballs - \"You're a touchdown in my playbook!\"",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
-      "name": "Above Par",
-      "price": 5,
+      "name": "Above Par Valentine",
+      "price": 4,
       "image": "images/IMG_2117.jpeg",
       "description": "Golf-themed Valentine with putting green design - \"You are above par, valentine!\"",
       "category": "holiday",
       "subcategory": "valentines-day",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
-      "name": "Perfect 10",
-      "price": 5,
-      "image": "images/IMG_2118.jpeg",
-      "description": "Gymnastics-themed Valentine with elegant silhouettes - \"You are a perfect 10!\"",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": true,
-      "inventory": 1
-    },
-    {
-      "name": "Berry Sweet (Pink)",
-      "price": 5,
+      "name": "Berry Sweet (Pink) Valentine",
+      "price": 4,
       "image": "images/IMG_2133.jpeg",
-      "description": "Strawberry hearts Valentine with pink stripes and stamp edge detail",
+      "description": "Strawberry hearts Valentine with pink stripes and edge detail",
       "category": "holiday",
       "subcategory": "valentines-day",
       "featured": true,
       "inventory": 1
     },
     {
-      "name": "Berry Sweet (Gingham)",
-      "price": 5,
+      "name": "Berry Sweet (Gingham) Valentine",
+      "price": 4,
       "image": "images/IMG_2142.jpeg",
       "description": "Strawberry hearts Valentine with classic gingham and polka dot pattern",
       "category": "holiday",
@@ -71,8 +61,8 @@
       "inventory": 1
     },
     {
-      "name": "From One Fruit to Another",
-      "price": 5,
+      "name": "From One Fruit to Another Valentine",
+      "price": 4,
       "image": "images/IMG_2146.jpeg",
       "description": "Elegant botanical fruit arrangement with watercolor style - \"From one fruit to another\"",
       "category": "holiday",

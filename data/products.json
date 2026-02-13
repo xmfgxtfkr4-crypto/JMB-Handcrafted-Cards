@@ -291,30 +291,10 @@
       "inventory": 1
     },
     {
-      "name": "Hau'oli La Hanau (Rose)",
-      "price": 5,
-      "image": "images/IMG_1569.jpeg",
-      "description": "Hawaiian birthday card with dimensional pink rose and twine bow on dotted kraft background - \"Hau'oli la hanau\"",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Hau'oli La Hanau (Hibiscus)",
-      "price": 5,
-      "image": "images/IMG_1571.jpeg",
-      "description": "Hawaiian birthday card with pink hibiscus floral pattern and sequin accents - \"Hau'oli la hanau\"",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "Oh Baby!",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1581.jpeg",
-      "description": "Adorable bunny with crescent moon and stars on a yellow-bordered baby card - \"Oh Baby!\" with nursery rhyme insert",
+      "description": "Adorable bunny with crescent moon and stars on a yellow-bordered baby card - \"Oh Baby!\" with nursery rhyme insert. ",
       "category": "congratulations",
       "subcategory": "",
       "featured": false,
@@ -322,9 +302,9 @@
     },
     {
       "name": "Birthday Wishes (Red Rose)",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1874.jpeg",
-      "description": "Bold red roses with green leaves on a clean white card - \"Happy Birthday\" with wishes insert",
+      "description": "Bold red roses with green leaves on a clean white card - \"Happy Birthday\" with wishes insert. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
@@ -332,7 +312,7 @@
     },
     {
       "name": "Zesty Birthday",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1885.jpeg",
       "description": "Citrus orange slices with greenery and berries - \"Have a zesty birthday!\" with \"Sending you a big squeeze\" insert",
       "category": "birthday",
@@ -344,7 +324,7 @@
       "name": "Golden Candles",
       "price": 5,
       "image": "images/IMG_1903.jpeg",
-      "description": "Five watercolor candles with gold foil flames on a sleek black-bordered birthday card",
+      "description": "Five watercolor candles with gold foil flames on a sleek black-bordered birthday card. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
@@ -352,9 +332,9 @@
     },
     {
       "name": "Midnight Roses",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1908.jpeg",
-      "description": "Striking dimensional red roses on a black backdrop - versatile blank card with writing space inside",
+      "description": "Striking dimensional red roses on a black backdrop - Folded card with writing space inside. Other colors available by request.",
       "category": "thinking-of-you",
       "subcategory": "",
       "featured": false,
@@ -362,7 +342,7 @@
     },
     {
       "name": "Marigold Birthday",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1910.jpeg",
       "description": "Vibrant orange marigold bloom with detailed green leaves on a clean white birthday card",
       "category": "birthday",
@@ -372,17 +352,17 @@
     },
     {
       "name": "Blue Chrysanthemum",
-      "price": 5,
+      "price": 4,
       "image": "images/IMG_1911.jpeg",
-      "description": "Stunning blue chrysanthemum with green foliage on a minimalist black-bordered birthday card",
+      "description": "Stunning blue chrysanthemum with green foliage on a minimalist black-bordered birthday card. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
       "inventory": 1
     },
     {
-      "name": "Sweet Girl (Pink & Yellow)",
-      "price": 5,
+      "name": "New Baby Girl (Pink & Yellow)",
+      "price": 4,
       "image": "images/IMG_2173.jpeg",
       "description": "Baby onesies on hangers in pink gingham and yellow stripes - \"A big welcome to your sweet girl\"",
       "category": "congratulations",
@@ -391,8 +371,8 @@
       "inventory": 1
     },
     {
-      "name": "Sweet Girl (All Pink)",
-      "price": 5,
+      "name": "New Baby Girl (All Pink)",
+      "price": 4,
       "image": "images/IMG_2178.jpeg",
       "description": "Two pink plaid baby onesies on hangers with enamel dots - \"A big welcome to your sweet girl\"",
       "category": "congratulations",
@@ -401,8 +381,8 @@
       "inventory": 1
     },
     {
-      "name": "Sweet Boy (Blue)",
-      "price": 5,
+      "name": "New Baby Boy (Blue)",
+      "price": 4,
       "image": "images/IMG_2179.jpeg",
       "description": "Two blue striped baby onesies on hangers with enamel dots - \"A big welcome to your sweet boy\"",
       "category": "congratulations",
@@ -411,8 +391,8 @@
       "inventory": 1
     },
     {
-      "name": "Sweet Boy (Blue & Yellow)",
-      "price": 5,
+      "name": "New Baby Boy (Blue & Yellow)",
+      "price": 4,
       "image": "images/IMG_2180.jpeg",
       "description": "Baby onesies on hangers in teal plaid and yellow stripes - \"A big welcome to your sweet boy\"",
       "category": "congratulations",

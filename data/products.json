@@ -486,8 +486,28 @@
       "featured": false,
       "inventory": 1,
       "image": "images/eb8391cb-a035-46ad-ac98-b6150c3eb137.jpg",
-      "name": "Black & White Butterfly Sympathy",
+      "name": "Black & White Butterfly",
       "description": "Clean and simple embossed white sympathy card featuring black butterfly with vellum wings. \"My thoughts are with you\" interior sentiment.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 4,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "image": "images/3de5fc90-82be-4f4d-9170-da08433f3506.jpg",
+      "name": "Sunset Silhouette",
+      "description": "Ink blended by hand, sunset colors are the background for a silhouette of reeds and butterfly. Interior sentiment reads \"My you find peace and comfort in this difficult time and know that you are loved.\" ",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 4,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Early Evening Silhouette ",
+      "image": "images/f382fabe-e2bb-4289-ad53-0d1560fb39ea.jpg",
+      "description": "Ink blended by hand, shades of blue are the background for a silhouette of somber reeds. Interior sentiment reads \"My you find peace and comfort in this difficult time and know that you are loved.\" ",
       "category": "thinking-of-you"
     }
   ]

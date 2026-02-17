@@ -469,6 +469,26 @@
       "subcategory": "",
       "featured": false,
       "inventory": 1
+    },
+    {
+      "price": 4,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "image": "images/e98dd38c-1a57-40a8-8a40-987c71b13fb5.jpg",
+      "name": "Lilac Thank You",
+      "description": "Crisp purple bloom with \"You are Marvelous\" thank you card with matching lilac stamp and \"I can't thank you enough\" interior sentiment.",
+      "category": "thank-you"
+    },
+    {
+      "price": 4,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "image": "images/eb8391cb-a035-46ad-ac98-b6150c3eb137.jpg",
+      "name": "Black & White Butterfly Sympathy",
+      "description": "Clean and simple embossed white sympathy card featuring black butterfly with vellum wings. \"My thoughts are with you\" interior sentiment.",
+      "category": "thinking-of-you"
     }
   ]
 }

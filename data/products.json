@@ -539,6 +539,26 @@
       "name": "Tool Time with Plaid",
       "description": "Birthday card for that handy person in your life who wears plaid. They just go together, ya know?!",
       "category": "birthday"
+    },
+    {
+      "price": 5,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 0,
+      "image": "images/img_2223.jpeg",
+      "name": "Happy Birthday Postage Stamp",
+      "description": "Birthday wishes sent with cake and love on hand-colored postage stamp image",
+      "category": "birthday"
+    },
+    {
+      "price": 3.6,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 2,
+      "image": "images/img_2224.jpeg",
+      "name": "Happy Hippo First Birthday",
+      "description": "Say happy birthday with a happy hippo! Customize with any age.",
+      "category": "birthday"
     }
   ]
 }

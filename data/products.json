@@ -118,7 +118,7 @@
       "category": "thinking-of-you",
       "subcategory": "",
       "featured": false,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Lily of the Valley Silhouette",
@@ -168,7 +168,7 @@
       "category": "thank-you",
       "subcategory": "",
       "featured": false,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Poppy Fields",
@@ -178,7 +178,7 @@
       "category": "birthday",
       "subcategory": "",
       "featured": true,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Wedding Cake Wishes",
@@ -238,7 +238,7 @@
       "category": "birthday",
       "subcategory": "",
       "featured": false,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Happiest Birthday",
@@ -438,7 +438,7 @@
       "category": "birthday",
       "subcategory": "",
       "featured": true,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Patchwork Grid",
@@ -474,7 +474,7 @@
       "price": 4,
       "subcategory": "",
       "featured": false,
-      "inventory": 1,
+      "inventory": 0,
       "image": "images/e98dd38c-1a57-40a8-8a40-987c71b13fb5.jpg",
       "name": "Lilac Thank You",
       "description": "Crisp purple bloom with \"You are Marvelous\" thank you card with matching lilac stamp and \"I can't thank you enough\" interior sentiment.",

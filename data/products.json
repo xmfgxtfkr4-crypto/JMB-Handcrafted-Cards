@@ -469,6 +469,16 @@
       "name": "Happy Hippo First Birthday",
       "description": "Say happy birthday with a happy hippo! Customize with any age.",
       "category": "birthday"
+    },
+    {
+      "price": 4,
+      "subcategory": "",
+      "featured": true,
+      "inventory": 1,
+      "name": "Sophisticated Rose Birthday",
+      "image": "images/img_2332.jpeg",
+      "description": "Sophisticated rose with gold embossed detail and \"Happy Birthday\" sentiment. Interior sentiment is \"Celebrating You\" with an elegant outline of a rose. Available in red, yellow, or berry rose.",
+      "category": "birthday"
     }
   ]
 }

@@ -1,76 +1,6 @@
 {
   "products": [
     {
-      "name": "Quite a Catch",
-      "price": 4,
-      "image": "images/IMG_2114.jpeg",
-      "description": "Baseball-themed Valentine with embossed details - \"You're quite a catch, valentine!\"",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "You've Got Game",
-      "price": 4,
-      "image": "images/IMG_2115.jpeg",
-      "description": "Basketball-themed Valentine with wood court detail - \"You've got game, valentine!\"",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Touchdown Valentine",
-      "price": 4,
-      "image": "images/IMG_2116.jpeg",
-      "description": "Football-themed Valentine with textured leather footballs - \"You're a touchdown in my playbook!\"",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Above Par Valentine",
-      "price": 4,
-      "image": "images/IMG_2117.jpeg",
-      "description": "Golf-themed Valentine with putting green design - \"You are above par, valentine!\"",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Berry Sweet (Pink) Valentine",
-      "price": 4,
-      "image": "images/IMG_2133.jpeg",
-      "description": "Strawberry hearts Valentine with pink stripes and edge detail",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Berry Sweet (Gingham) Valentine",
-      "price": 4,
-      "image": "images/IMG_2142.jpeg",
-      "description": "Strawberry hearts Valentine with classic gingham and polka dot pattern",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "From One Fruit to Another Valentine",
-      "price": 4,
-      "image": "images/IMG_2146.jpeg",
-      "description": "Elegant botanical fruit arrangement with watercolor style - \"From one fruit to another\"",
-      "category": "holiday",
-      "subcategory": "valentines-day",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "Grateful for You",
       "price": 4,
       "image": "images/IMG_0012.jpeg",
@@ -109,16 +39,6 @@
       "subcategory": "",
       "featured": false,
       "inventory": 1
-    },
-    {
-      "name": "Embossed Wild Flowers",
-      "price": 4,
-      "image": "images/IMG_0396.jpeg",
-      "description": "Embossed pink wildflowers and leaves on a hot pink-bordered card with soft watercolor finish",
-      "category": "thinking-of-you",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 0
     },
     {
       "name": "Lily of the Valley Silhouette",
@@ -168,13 +88,13 @@
       "category": "thank-you",
       "subcategory": "",
       "featured": false,
-      "inventory": 0
+      "inventory": 4
     },
     {
       "name": "Poppy Fields",
       "price": 5,
       "image": "images/IMG_0961.jpeg",
-      "description": "Stunning red poppies with gold detail on a bold black-bordered birthday card. Other colors available by request.",
+      "description": "Stunning poppies with gold detail on a bold black-bordered birthday card. Available in red, purple, and orange,",
       "category": "birthday",
       "subcategory": "",
       "featured": true,
@@ -231,14 +151,14 @@
       "inventory": 1
     },
     {
-      "name": "Blue Anemone",
+      "name": "Anemone Birthday",
       "price": 4,
       "image": "images/IMG_1289.jpeg",
-      "description": "Hand-colored blue anemones with green foliage cascading along a navy-bordered birthday card. Other colors available by request.",
+      "description": "Hand-colored anemones with green foliage cascading along a matching bordered birthday card. Available in red, blue, and currant.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
-      "inventory": 0
+      "inventory": 3
     },
     {
       "name": "Happiest Birthday",
@@ -321,21 +241,11 @@
       "inventory": 1
     },
     {
-      "name": "Golden Candles",
+      "name": "Birthday Candles",
       "price": 4,
       "image": "images/IMG_1903.jpeg",
       "description": "Five watercolor candles with gold foil flames on a sleek black-bordered birthday card. Other colors available by request.",
       "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Midnight Roses",
-      "price": 4,
-      "image": "images/IMG_1908.jpeg",
-      "description": "Striking dimensional red roses on a black backdrop - Folded card with writing space inside. Other colors available by request.",
-      "category": "thinking-of-you",
       "subcategory": "",
       "featured": false,
       "inventory": 1
@@ -347,7 +257,7 @@
       "description": "Vibrant orange marigold bloom with detailed green leaves on a clean white birthday card",
       "category": "birthday",
       "subcategory": "",
-      "featured": false,
+      "featured": true,
       "inventory": 1
     },
     {
@@ -438,7 +348,7 @@
       "category": "birthday",
       "subcategory": "",
       "featured": true,
-      "inventory": 0
+      "inventory": 3
     },
     {
       "name": "Patchwork Grid",
@@ -551,7 +461,7 @@
       "category": "birthday"
     },
     {
-      "price": 3.6,
+      "price": 4,
       "subcategory": "",
       "featured": false,
       "inventory": 2,

@@ -153,7 +153,7 @@
     {
       "name": "Anemone Birthday",
       "price": 4,
-      "image": "images/IMG_1289.jpeg",
+      "image": "images/img_2330.jpeg",
       "description": "Hand-colored anemones with green foliage cascading along a matching bordered birthday card. Available in red, blue, and currant.",
       "category": "birthday",
       "subcategory": "",
@@ -257,7 +257,7 @@
       "description": "Vibrant orange marigold bloom with detailed green leaves on a clean white birthday card",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
@@ -343,8 +343,8 @@
     {
       "name": "Iris in Bloom",
       "price": 4,
-      "image": "images/IMG_4769.jpeg",
-      "description": "Vivid purple iris with green stems in a bold black triple-matted frame with embossed envelope - \"Happy Birthday\"",
+      "image": "images/img_2329.jpg",
+      "description": "Vivid iris with green stems in a bold black triple-matted frame with embossed envelope - \"Happy Birthday\". Available in purple, deep blue, and yellow.",
       "category": "birthday",
       "subcategory": "",
       "featured": true,

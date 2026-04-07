@@ -489,6 +489,86 @@
       "name": "Mother's Day Purple Campanula",
       "description": "Celebrate Mother's Day with a layered, die cut, purple campanula flower in a gold vase. Inside sentiment says \"Happy Mother's Day.\"",
       "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "name": "Mother's Day Bluebells",
+      "image": "images/img_2430.jpeg",
+      "description": "Celebrate Mother's Day with a layered die cut bluebell stem. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 3.51,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2429.jpeg",
+      "name": "Mother's Day Red Anemone",
+      "description": "Celebrate Mother's Day with a layered die cut red anemone stem. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2428.jpeg",
+      "name": "Mother's Day Orange Flowers",
+      "description": "Celebrate Mother's Day with a layered die cut orange blossoms in a gold vase. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": false,
+      "inventory": 1,
+      "image": "images/img_2427.jpeg",
+      "name": "Mother's Day Lily of the Valley",
+      "description": "Celebrate Mother's Day with a layered die cut lily of the valley stem. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2426.jpeg",
+      "name": "Mother's Day Berry Flowers",
+      "description": "Celebrate Mother's Day with a layered die cut berry flower stem. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2425.jpeg",
+      "name": "Mother's Day Pink Flower",
+      "description": "Celebrate Mother's Day with a layered die cut pink flower stem. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2424.jpeg",
+      "name": "Mother's Day Yellow Coneflower",
+      "description": "Celebrate Mother's Day with a layered die cut yellow coneflowers. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2423.jpeg",
+      "name": "Mother's Day Yellow Tulip",
+      "description": "Celebrate Mother's Day with a layered die cut yellow tulip. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
     }
   ]
 }

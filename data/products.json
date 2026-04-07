@@ -479,6 +479,16 @@
       "image": "images/img_2332.jpeg",
       "description": "Sophisticated rose with gold embossed detail and \"Happy Birthday\" sentiment. Interior sentiment is \"Celebrating You\" with an elegant outline of a rose. Available in red, yellow, or berry rose.",
       "category": "birthday"
+    },
+    {
+      "price": 4,
+      "subcategory": "mothers-day",
+      "featured": true,
+      "inventory": 1,
+      "image": "images/img_2431.jpeg",
+      "name": "Mother's Day Purple Campanula",
+      "description": "Celebrate Mother's Day with a layered, die cut, purple campanula flower in a gold vase. Inside sentiment says \"Happy Mother's Day.\"",
+      "category": "holiday"
     }
   ]
 }

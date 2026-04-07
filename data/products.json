@@ -473,7 +473,7 @@
     {
       "price": 4,
       "subcategory": "mothers-day",
-      "featured": false,
+      "featured": true,
       "inventory": 1,
       "image": "images/img_2431.jpeg",
       "name": "Mother's Day Purple Campanula",
@@ -513,7 +513,7 @@
     {
       "price": 4,
       "subcategory": "mothers-day",
-      "featured": false,
+      "featured": true,
       "inventory": 1,
       "image": "images/img_2427.jpeg",
       "name": "Mother's Day Lily of the Valley",

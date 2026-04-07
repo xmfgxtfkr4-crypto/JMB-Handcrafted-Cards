@@ -473,7 +473,7 @@
     {
       "price": 4,
       "subcategory": "mothers-day",
-      "featured": true,
+      "featured": false,
       "inventory": 1,
       "image": "images/img_2431.jpeg",
       "name": "Mother's Day Purple Campanula",

@@ -57,7 +57,7 @@
       "description": "Dimensional pink tulips in a golden crate with sky blue oval backdrop - \"Happy Birthday!\" Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
@@ -97,7 +97,7 @@
       "description": "Stunning poppies with gold detail on a bold black-bordered birthday card. Available in red, purple, and orange,",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 3
     },
     {
@@ -197,7 +197,7 @@
       "description": "Classic red roses with satin ribbon stripes and gold embossed sentiment on a textured birthday card. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
@@ -327,16 +327,6 @@
       "description": "Coral carnations on a scalloped white panel with matching watercolor border - \"Happy Birthday!\" Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Heartstrings",
-      "price": 4,
-      "image": "images/IMG_4755.jpeg",
-      "description": "Rustic card with kraft wood-grain background, red heart and twine bow - \"Happy Valentine's Day.\" Also available as a birthday card.",
-      "category": "holiday",
-      "subcategory": null,
       "featured": false,
       "inventory": 1
     },

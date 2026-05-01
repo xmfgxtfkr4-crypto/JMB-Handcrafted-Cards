@@ -525,29 +525,9 @@
       "subcategory": "mothers-day",
       "featured": true,
       "inventory": 1,
-      "image": "images/img_2426.jpeg",
-      "name": "Mother's Day Berry Flowers",
-      "description": "Celebrate Mother's Day with a layered die cut berry flower stem. Inside sentiment says \"Happy Mother's Day.\"",
-      "category": "holiday"
-    },
-    {
-      "price": 4,
-      "subcategory": "mothers-day",
-      "featured": true,
-      "inventory": 1,
       "image": "images/img_2425.jpeg",
       "name": "Mother's Day Pink Flower",
       "description": "Celebrate Mother's Day with a layered die cut pink flower stem. Inside sentiment says \"Happy Mother's Day.\"",
-      "category": "holiday"
-    },
-    {
-      "price": 4,
-      "subcategory": "mothers-day",
-      "featured": true,
-      "inventory": 1,
-      "image": "images/img_2424.jpeg",
-      "name": "Mother's Day Yellow Coneflower",
-      "description": "Celebrate Mother's Day with a layered die cut yellow coneflowers. Inside sentiment says \"Happy Mother's Day.\"",
       "category": "holiday"
     },
     {

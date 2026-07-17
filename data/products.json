@@ -31,30 +31,10 @@
       "inventory": 1
     },
     {
-      "name": "Golden Dahlia",
-      "price": 4,
-      "image": "images/IMG_0378.jpeg",
-      "description": "Vibrant orange dahlia bloom with green foliage on an emerald-bordered card with gold accent. Other colors available by request.",
-      "category": "thinking-of-you",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "Lily of the Valley Silhouette",
       "price": 4,
       "image": "images/IMG_0407.jpeg",
       "description": "Bold pink card with intricate white floral die-cut silhouette and \"Happy Birthday\" sentiment. Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Tulip Crate",
-      "price": 4,
-      "image": "images/IMG_0417.jpeg",
-      "description": "Dimensional pink tulips in a golden crate with sky blue oval backdrop - \"Happy Birthday!\" Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
@@ -151,41 +131,11 @@
       "inventory": 1
     },
     {
-      "name": "Anemone Birthday",
-      "price": 4,
-      "image": "images/img_2330.jpeg",
-      "description": "Hand-colored anemones with green foliage cascading along a matching bordered birthday card. Available in red, blue, and currant.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 3
-    },
-    {
-      "name": "Happiest Birthday",
-      "price": 4,
-      "image": "images/IMG_1290.jpeg",
-      "description": "Orange and yellow wildflower border with calligraphy script - \"Wishing you the happiest birthday ever!\"",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "Hope and Peace",
       "price": 4,
       "image": "images/IMG_1295.jpeg",
       "description": "Floral vine panel with pink blooms and comforting message - \"May the comfort of God's love fill you with Hope & Peace\"",
       "category": "thinking-of-you",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Sunset Hexagons",
-      "price": 4,
-      "image": "images/IMG_1480.jpeg",
-      "description": "Modern geometric birthday card with blue-to-coral ombre hexagon die cuts and banner sentiment.",
-      "category": "birthday",
       "subcategory": "",
       "featured": false,
       "inventory": 1
@@ -216,36 +166,6 @@
       "image": "images/IMG_1581.jpeg",
       "description": "Adorable bunny with crescent moon and stars on a yellow-bordered baby card - \"Oh Baby!\" with nursery rhyme insert. ",
       "category": "congratulations",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Birthday Wishes (Red Rose)",
-      "price": 4,
-      "image": "images/IMG_1874.jpeg",
-      "description": "Bold red roses with green leaves on a clean white card - \"Happy Birthday\" with wishes insert. Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Zesty Birthday",
-      "price": 4,
-      "image": "images/IMG_1885.jpeg",
-      "description": "Citrus orange slices with greenery and berries - \"Have a zesty birthday!\" with \"Sending you a big squeeze\" insert",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Birthday Candles",
-      "price": 4,
-      "image": "images/IMG_1903.jpeg",
-      "description": "Five watercolor candles with gold foil flames on a sleek black-bordered birthday card. Other colors available by request.",
-      "category": "birthday",
       "subcategory": "",
       "featured": false,
       "inventory": 1
@@ -321,46 +241,6 @@
       "inventory": 1
     },
     {
-      "name": "Carnation Birthday",
-      "price": 4,
-      "image": "images/IMG_4730.jpeg",
-      "description": "Coral carnations on a scalloped white panel with matching watercolor border - \"Happy Birthday!\" Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Iris in Bloom",
-      "price": 4,
-      "image": "images/img_2329.jpg",
-      "description": "Vivid iris with green stems in a bold black triple-matted frame with embossed envelope - \"Happy Birthday\". Available in purple, deep blue, and yellow.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": true,
-      "inventory": 3
-    },
-    {
-      "name": "Patchwork Grid",
-      "price": 4,
-      "image": "images/IMG_4840.jpeg",
-      "description": "Colorful patchwork grid of striped and confetti squares on a hot pink birthday card. Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Sunny Daffodil Birthday",
-      "price": 4,
-      "image": "images/IMG_4880.jpeg",
-      "description": "Bright yellow daffodil with orange trumpet on a clean black-bordered birthday card",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": true,
-      "inventory": 1
-    },
-    {
       "name": "Kisses and Lashes",
       "price": 4,
       "image": "images/IMG_4900.jpeg",
@@ -428,16 +308,6 @@
       "image": "images/img_2220.jpeg",
       "name": "Blues and Grey Birthday",
       "description": "Subtle graphic semi-circles in shades of blue and grey birthday card",
-      "category": "birthday"
-    },
-    {
-      "price": 4,
-      "subcategory": "",
-      "featured": false,
-      "inventory": 2,
-      "image": "images/img_2221.jpeg",
-      "name": "Tool Time with Plaid",
-      "description": "Birthday card for that handy person in your life who wears plaid. They just go together, ya know?!",
       "category": "birthday"
     },
     {

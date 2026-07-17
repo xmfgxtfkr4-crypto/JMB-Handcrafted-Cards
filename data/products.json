@@ -37,7 +37,7 @@
       "description": "Bold pink card with intricate white floral die-cut silhouette and \"Happy Birthday\" sentiment. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
@@ -273,7 +273,7 @@
     {
       "price": 4,
       "subcategory": "",
-      "featured": false,
+      "featured": true,
       "inventory": 1,
       "image": "images/3de5fc90-82be-4f4d-9170-da08433f3506.jpg",
       "name": "Sunset Silhouette",

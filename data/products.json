@@ -313,7 +313,7 @@
     {
       "price": 5,
       "subcategory": "",
-      "featured": false,
+      "featured": true,
       "inventory": 1,
       "image": "images/img_2223.jpeg",
       "name": "Happy Birthday Postage Stamp",

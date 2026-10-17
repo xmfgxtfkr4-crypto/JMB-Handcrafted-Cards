@@ -77,7 +77,7 @@
       "description": "Stunning poppies with gold detail on a bold black-bordered birthday card. Available in purple.",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 3
     },
     {
@@ -117,7 +117,7 @@
       "description": "Hand-colored purple aster with yellow center on a postage stamp-style birthday card",
       "category": "birthday",
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1
     },
     {
@@ -184,10 +184,10 @@
       "name": "Chrysanthemum Birthday",
       "price": 4,
       "image": "images/IMG_1911.jpeg",
-      "description": "Stunning blue chrysanthemum with green foliage on a minimalist black-bordered birthday card. Other colors available by request.",
+      "description": "November's birth month flower! Stunning blue chrysanthemum with green foliage on a minimalist black-bordered birthday card. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
-      "featured": false,
+      "featured": true,
       "inventory": 1
     },
     {
@@ -303,7 +303,7 @@
     {
       "price": 4,
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1,
       "image": "images/img_2220.jpeg",
       "name": "Blues and Grey Birthday",
@@ -333,7 +333,7 @@
     {
       "price": 4,
       "subcategory": "",
-      "featured": true,
+      "featured": false,
       "inventory": 1,
       "name": "Sophisticated Rose Birthday",
       "image": "images/img_2332.jpeg",

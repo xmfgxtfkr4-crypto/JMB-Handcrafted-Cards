@@ -363,10 +363,10 @@
     {
       "price": 3.5,
       "subcategory": "christmas",
-      "featured": true,
+      "featured": false,
       "inventory": 16,
       "name": "Woodland Rose Christmas",
-      "image": "images/31e0999b-c472-4e22-a307-0a5d95a15328_1_102_a.jpeg",
+      "image": "images/764f15b1-f4f9-4e5e-bd49-6cd96cf5c447_1_201_a.heic",
       "description": "A cozy, old-fashioned Christmas card filled with crimson and blush roses, holly, pine sprigs, pinecones, and clusters of red and white berries on a warm, weathered background. Finished with a gold foil “Merry Christmas” and a star-embossed side panel. Sentiment inside reads \"May the spirit of the season be with you throughout the New Year.\"",
       "category": "holiday"
     },
@@ -394,11 +394,11 @@
       "price": 3.5,
       "subcategory": "christmas",
       "featured": false,
-      "inventory": 7,
+      "inventory": 2,
       "name": "Champagne Rose Christmas",
       "description": "A soft, elegant Christmas card with champagne and peach roses, white anemones, and rosy berries drifting across a blush background with delicate snowflakes. Finished with a gold foil “Merry Christmas” and a star-embossed side panel. Sentiment inside reads \"May the spirit of the season be with you throughout the New Year.\"",
       "category": "holiday",
-      "image": "images/31e0999b-c472-4e22-a307-0a5d95a15328_1_102_a.jpeg"
+      "image": "images/b1bd4999-a7c8-4c99-aefb-ad22885f502e_1_201_a.heic"
     }
   ]
 }

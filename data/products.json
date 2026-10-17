@@ -379,6 +379,16 @@
       "image": "images/c26cd3a3-7d2c-4f20-b5e3-a3b815e256f1_1_102_a.jpeg",
       "description": "A charming, nostalgic Christmas card featuring a pair of antique ice skates nestled among plum blooms, cream hellebores, and pink winter berries on a lace-patterned mauve background. Finished with a gold foil “Merry Christmas” and a star-embossed side panel. Sentiment inside reads \"May the spirit of the season be with you throughout the New Year.\"",
       "category": "holiday"
+    },
+    {
+      "price": 3.5,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 15,
+      "name": "Winter Rose Garden Christmas",
+      "image": "images/ef62c51a-f204-4973-bf9b-0035780512ba_1_201_a.heic",
+      "description": "A lush Christmas card bursting with blush, crimson, and deep burgundy roses, a snowy white peony, and frosted berries on a soft sage background with a lacy snowflake. Finished with a gold foil “Merry Christmas,” gold accents, and a star-embossed side panel. Sentiment inside reads \"May the spirit of the season be with you throughout the New Year.\"",
+      "category": "holiday"
     }
   ]
 }

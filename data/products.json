@@ -399,6 +399,36 @@
       "description": "A soft, elegant Christmas card with champagne and peach roses, white anemones, and rosy berries drifting across a blush background with delicate snowflakes. Finished with a gold foil “Merry Christmas” and a star-embossed side panel. Sentiment inside reads \"May the spirit of the season be with you throughout the New Year.\"",
       "category": "holiday",
       "image": "images/b1bd4999-a7c8-4c99-aefb-ad22885f502e_1_201_a.heic"
+    },
+    {
+      "price": 3.5,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 11,
+      "name": "Wise Men Still Seek Him Christmas",
+      "image": "images/551e1a0a-24ce-4d6d-909c-ea5ffba55a42.heic",
+      "description": "A meaningful Christmas card showing the three kings riding golden camels beneath the Star of Bethlehem, set against a deep midnight sky scattered with gold stars. The words “Wise men still seek Him” sit beneath the journey, and the panel is mounted on rich red cardstock. Inside reads “Merry Christmas.”",
+      "category": "holiday"
+    },
+    {
+      "price": 3.5,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 18,
+      "name": "Christ is Born Christmas",
+      "image": "images/5186973a-02dc-4cab-9b97-14528fb9adc2.heic",
+      "description": "A simple, striking Christmas card with “Christ is Born” hand-lettered in bold black script with golden highlights, surrounded by graceful olive branches on a creamy background. Layered over black and evergreen cardstock for a crisp, classic finish. Inside reads “Merry Christmas.”",
+      "category": "holiday"
+    },
+    {
+      "price": 3.5,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 12,
+      "name": "Joy to the World Christmas",
+      "image": "images/823855c0-f8a8-46a5-a7c7-84b1c427d8be.heic",
+      "description": "A reverent Christmas card featuring a kneeling angel in a soft white gown with shimmering golden wings, bowed in prayer on a deep burgundy background. Beside her, the beloved hymn lyric “Joy to the world, the Lord is come, let earth receive her King!” is lettered in elegant white, all framed in warm golden cardstock. Inside reads “Merry Christmas.”",
+      "category": "holiday"
     }
   ]
 }

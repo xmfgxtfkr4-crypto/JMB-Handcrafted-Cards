@@ -459,6 +459,16 @@
       "image": "images/img_3789.jpeg",
       "description": "Three charming thank you cards filled with the cozy, country feel of a lavender farm. Each is crisply layered in black and white with a script “Thank You” sentiment:\nLibrary Card: a vintage lavender library due-date card lettered with “Thank You,” surrounded by embossed lavender sprigs.\nFloral Window: cream and lavender blooms with a tiny bee on a rich chocolate background, beside farmhouse window scenes with baskets of lavender.\nPantry Shelves: a strip of rustic pantry shelves lined with jars and potted lavender, opening onto rolling lavender fields, set against a lavender bouquet pattern with purple accents.\n",
       "category": "thank-you"
+    },
+    {
+      "price": 3.98,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 3,
+      "name": "A Big Thank You Peony",
+      "image": "images/img_3788.jpeg",
+      "description": "A lush, romantic thank you card with painted pink roses, tender buds, and deep green leaves on a soft cream background. In the corner, a stitched pocket holds two dimensional pink blooms in layered stamped detail, tucked among fresh green leaves. The cheerful “A big thank you!” sentiment sits beside them, all framed in black and rose red.",
+      "category": "thank-you"
     }
   ]
 }

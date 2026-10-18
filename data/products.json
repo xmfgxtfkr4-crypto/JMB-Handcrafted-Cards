@@ -399,6 +399,36 @@
       "image": "images/823855c0-f8a8-46a5-a7c7-84b1c427d8be.heic",
       "description": "A reverent Christmas card featuring a kneeling angel in a soft white gown with shimmering golden wings, bowed in prayer on a deep burgundy background. Beside her, the beloved hymn lyric “Joy to the world, the Lord is come, let earth receive her King!” is lettered in elegant white, all framed in warm golden cardstock. Inside reads “Merry Christmas.”",
       "category": "holiday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 4,
+      "name": "Garden Bloom Thank You",
+      "image": "images/img_3783.jpeg",
+      "description": "A cheerful thank you card with a bold floral panel of poppy red, coral, and olive blooms set among deep green leaves. A hand-cut stem rises up the center, topped with a raised flower detailed in gold, while a stitched green banner carries “Thank You” in shimmering gold. Finished with sparkling gems on a crisp cream base. Inside reads \"For all the wonderful things you do.\"\n\nMatching cards are available as a set.",
+      "category": "thank-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 3,
+      "name": "Watercolor Thistle Thank You",
+      "image": "images/img_3784.jpeg",
+      "description": "A soft, artistic thank you card featuring wild magenta thistles drifting across a watercolor sky that melts from teal to golden sunlight. Framed in rich orchid cardstock with a “thank you very much” sentiment and three iridescent aqua gems that catch the light. Inside is ready for your personalized message.",
+      "category": "thank-you"
+    },
+    {
+      "price": 20,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Garden Bloom Thank You Set (6)",
+      "image": "images/img_3785.jpeg",
+      "description": "Three coordinating designs in one beautiful set, all featuring the same bold floral pattern in poppy red, coral, olive, and deep green. Includes two gatefold cards that open from the center with a “thank you” tag and dimensional blooms, three cards with diagonal strips of florals, stripes, and solid color, and one card framed in bright red with a gold “Thank You” and sparkling gems. Inside reads on all cards \"For all the wonderful things you do.\"",
+      "category": "thank-you"
     }
   ]
 }

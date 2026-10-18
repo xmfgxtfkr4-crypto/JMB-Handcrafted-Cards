@@ -439,6 +439,26 @@
       "description": "Three sweet watercolor designs, two of each, to show someone how much you appreciate them. Each card features a charming songbird framed in a stitched circle above a “Thinking of You” sentiment, set against delicate blossom-covered backgrounds. In coral, blue, and green. Inside is waiting for you personal message of gratitude.\n",
       "category": "thank-you",
       "image": "images/img_3641.jpeg"
+    },
+    {
+      "price": 10,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Watercolor Meadow Thank You SET (3)",
+      "image": "images/img_3787.jpeg",
+      "description": "Three artful thank you cards inspired by a wildflower meadow at dusk, with soft watercolor washes in mauve, honey gold, sage, and sky blue. Each features deckled edges, gold accents, and a “Thank You” sentiment:\nOlive: diagonal strips of earthy watercolor meadow with a cut-out stem of orchid blooms, on olive green.\nPlum: a dreamy painted landscape of blue sky fading to pink wildflowers, layered on plum and olive.\nLavender: brighter diagonal strips in orchid, gold, and aqua with a cut-out flowering stem, on soft lavender.",
+      "category": "thank-you"
+    },
+    {
+      "price": 10,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Lavender Farmhouse Thank You SET (3)",
+      "image": "images/img_3789.jpeg",
+      "description": "Three charming thank you cards filled with the cozy, country feel of a lavender farm. Each is crisply layered in black and white with a script “Thank You” sentiment:\nLibrary Card: a vintage lavender library due-date card lettered with “Thank You,” surrounded by embossed lavender sprigs.\nFloral Window: cream and lavender blooms with a tiny bee on a rich chocolate background, beside farmhouse window scenes with baskets of lavender.\nPantry Shelves: a strip of rustic pantry shelves lined with jars and potted lavender, opening onto rolling lavender fields, set against a lavender bouquet pattern with purple accents.\n",
+      "category": "thank-you"
     }
   ]
 }

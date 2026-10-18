@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "name": "Grateful for You",
-      "price": 4,
-      "image": "images/IMG_0012.jpeg",
-      "description": "Ink blended teal card with white embossed roses and scalloped edge - \"Grateful for you.\" Other colors available by request.",
-      "category": "thank-you",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "Purple Daisies",
       "price": 4,
       "image": "images/IMG_0211.jpeg",
@@ -62,13 +52,13 @@
     },
     {
       "name": "Pretty Petals Thank You",
-      "price": 4,
+      "price": 4.65,
       "image": "images/IMG_0829.jpeg",
       "description": "Purple wildflower bouquet with olive green leaves on a dark-bordered thank you card. Other colors available by request.",
       "category": "thank-you",
       "subcategory": "",
       "featured": false,
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "Poppy Fields",
@@ -255,16 +245,6 @@
       "subcategory": "",
       "featured": false,
       "inventory": 1,
-      "image": "images/e98dd38c-1a57-40a8-8a40-987c71b13fb5.jpg",
-      "name": "Lilac Thank You",
-      "description": "Crisp purple bloom with \"You are Marvelous\" thank you card with matching lilac stamp and \"I can't thank you enough\" interior sentiment.",
-      "category": "thank-you"
-    },
-    {
-      "price": 4,
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1,
       "image": "images/eb8391cb-a035-46ad-ac98-b6150c3eb137.jpg",
       "name": "Black & White Butterfly",
       "description": "Clean and simple embossed white sympathy card featuring black butterfly with vellum wings. \"My thoughts are with you\" interior sentiment.",
@@ -289,16 +269,6 @@
       "image": "images/f382fabe-e2bb-4289-ad53-0d1560fb39ea.jpg",
       "description": "Ink blended by hand, shades of blue are the background for a silhouette of somber reeds. Interior sentiment reads \"My you find peace and comfort in this difficult time and know that you are loved.\" ",
       "category": "thinking-of-you"
-    },
-    {
-      "price": 4,
-      "subcategory": "",
-      "featured": false,
-      "inventory": 4,
-      "image": "images/img_2219.jpeg",
-      "name": "Pink Roses Floral",
-      "description": "Water color look thank you card.",
-      "category": "thank-you"
     },
     {
       "price": 4,

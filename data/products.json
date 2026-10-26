@@ -509,6 +509,16 @@
       "image": "images/img_3803.jpeg",
       "description": "A white heat-embossed dragonfly hovers over a rich navy floral background, with “with sympathy” embossed in matching white. Inside, the message reads “May you find peace and comfort in this difficult time and know that you are loved.”",
       "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Embossed Wildflowers Sympathy",
+      "image": "images/img_3804.jpeg",
+      "description": "Textured, embossed wildflowers in soft peach with green leaves sit between two black accent stripes on a white card. The “with sympathy” sentiment is stamped in black in the lower corner for a simple, understated look.",
+      "category": "thinking-of-you"
     }
   ]
 }

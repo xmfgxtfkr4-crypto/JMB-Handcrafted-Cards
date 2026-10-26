@@ -429,6 +429,26 @@
       "image": "images/img_3811.jpeg",
       "description": "A watercolor bluebird rests among pink blossoms in a stitched square frame. The lavender floral paper and teal card stock give it a fresh, spring-like feel. “Thinking of You” is stamped in teal on a scalloped label. Blank inside.",
       "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Sending Hugs – Autumn Leaf Wreath",
+      "image": "images/img_3812.jpeg",
+      "description": "A wreath of die-cut maple and oak leaves in orange, golden yellow, and green surrounds a warm “Sending Hugs” sentiment. An orange buffalo plaid panel on the fold-out side adds a cozy fall touch, and tiny gem accents add a bit of sparkle. Blank inside.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "May His Amazing Love Touch Your Heart",
+      "image": "images/img_3813.jpeg",
+      "description": "This gate-fold style card is covered in a rich floral print of red, mustard, and blue blooms on deep green. A diamond-shaped sentiment panel with a die-cut leafy branch sits at the center. Opening the gate reveals the inside. Blank inside.",
+      "category": "thinking-of-you"
     }
   ]
 }

@@ -409,6 +409,26 @@
       "image": "images/img_3788.jpeg",
       "description": "A lush, romantic thank you card with painted pink roses, tender buds, and deep green leaves on a soft cream background. In the corner, a stitched pocket holds two dimensional pink blooms in layered stamped detail, tucked among fresh green leaves. The cheerful “A big thank you!” sentiment sits beside them, all framed in black and rose red.",
       "category": "thank-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Coral Bluebird Thinking of You",
+      "image": "images/img_3810.jpeg",
+      "description": "A sweet watercolor bluebird perches on a branch of purple blossoms in a stitched circle frame. It sits against a soft pink floral background with coral card stock. The “Thinking of You” sentiment is stamped in matching coral ink on a decorative label. Blank inside.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Teal Bluebird Thinking of You",
+      "image": "images/img_3811.jpeg",
+      "description": "A watercolor bluebird rests among pink blossoms in a stitched square frame. The lavender floral paper and teal card stock give it a fresh, spring-like feel. “Thinking of You” is stamped in teal on a scalloped label. Blank inside.",
+      "category": "thinking-of-you"
     }
   ]
 }

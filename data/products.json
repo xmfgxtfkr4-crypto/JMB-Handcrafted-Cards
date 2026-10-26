@@ -434,7 +434,7 @@
       "price": 4.35,
       "subcategory": "",
       "featured": false,
-      "inventory": 1,
+      "inventory": 4,
       "name": "Sending Hugs – Autumn Leaf Wreath",
       "image": "images/img_3812.jpeg",
       "description": "A wreath of die-cut maple and oak leaves in orange, golden yellow, and green surrounds a warm “Sending Hugs” sentiment. An orange buffalo plaid panel on the fold-out side adds a cozy fall touch, and tiny gem accents add a bit of sparkle. Blank inside.",
@@ -444,10 +444,30 @@
       "price": 4.35,
       "subcategory": "",
       "featured": false,
-      "inventory": 1,
+      "inventory": 4,
       "name": "May His Amazing Love Touch Your Heart",
       "image": "images/img_3813.jpeg",
       "description": "This gate-fold style card is covered in a rich floral print of red, mustard, and blue blooms on deep green. A diamond-shaped sentiment panel with a die-cut leafy branch sits at the center. Opening the gate reveals the inside. Blank inside.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 3,
+      "name": "You Have Filled My Heart with Great Joy – Psalm 4:7",
+      "image": "images/img_3814.jpeg",
+      "description": "A bold stamped lilac bloom in layered shades of blue with green leaves fills this elegant card. The scripture sentiment sits on a label with sparkling gem accents, framed in royal blue and black layers. Blank inside.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 2,
+      "name": "I Can Do All Things Through Christ – Philippians 4:13",
+      "image": "images/img_3815.jpeg",
+      "description": "A watercolor pine forest scene with purple wildflowers sits on a side-fold card tied with a bright orchid ribbon. The inside features a scripture verse with a small leafy sprig. A thoughtful card to encourage someone who needs strength.",
       "category": "thinking-of-you"
     }
   ]

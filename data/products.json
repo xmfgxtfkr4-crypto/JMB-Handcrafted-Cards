@@ -559,6 +559,26 @@
       "name": "Coral and Evergreen Floral Encouragement",
       "description": "This fold-open card has bold peach and coral roses with deep green leaves on a black background. An olive green grid panel is the focal point, with a die-cut leaf and sparkling gem accents. The front says “Courage is being really scared and doing it anyway.” Inside, the message reads “You’ve got this.”",
       "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 6,
+      "name": "Pink Christmas Trees Gift Card Holder Card",
+      "image": "images/img_3837.jpeg",
+      "description": "Deck the halls in pink! This Christmas card features a bright patterned panel of blush, coral, and raspberry trees, topped with a die-cut white tree framed by a pinwheel circle. The front reads “let’s decorate the season with happiness,” and inside, a matching pocket holds a gift card with the sentiment “I hope your days are filled with fun & laughter.” A sweet, modern way to send holiday cheer and a little something extra.",
+      "category": "holiday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 6,
+      "name": "Merry Christmas Snowman Gift Card Holder Card",
+      "image": "images/img_3839.jpeg",
+      "description": "Warm wishes with a cheerful snowman! This Christmas card features a dapper die-cut snowman in a black top hat with a holly and red gem accent, a red scarf, and twig arms. He sits on a pink starry panel with red layered borders, and a “Merry Christmas” banner crosses the front. Inside, a snowman-patterned pocket holds a gift card, with the message “May your holiday season be filled with warmth and cheerful celebration.” Perfect for teachers, neighbors, and friends.",
+      "category": "holiday"
     }
   ]
 }

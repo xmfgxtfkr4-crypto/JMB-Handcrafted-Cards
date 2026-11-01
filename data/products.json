@@ -51,6 +51,16 @@
       "inventory": 1
     },
     {
+      "price": 19.47,
+      "subcategory": "christmas",
+      "featured": true,
+      "inventory": 4,
+      "name": "Golden Candlelight Christmas Card | Platinum Series",
+      "image": "images/aa09182e-207c-4132-ba11-01dcb4445156.heic",
+      "description": "Let the glow of the season light up your greetings! This Christmas card features three candles in a stained-glass style design, with every piece of amber, burnt orange, mustard, and cream cardstock individually paper-pieced by hand into concentric arcs. Shiny gold foil outlines each section and makes the flames sparkle against a deep navy background. A gold heat-embossed “Merry Christmas from our family to yours” sentiment finishes the front. It’s a rich, elegant card to send from your whole household.",
+      "category": "holiday"
+    },
+    {
       "name": "Silver Anniversary Roses",
       "price": 5,
       "image": "images/IMG_0788.jpeg",

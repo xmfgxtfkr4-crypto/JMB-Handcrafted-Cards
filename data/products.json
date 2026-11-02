@@ -53,7 +53,7 @@
     {
       "price": 4.35,
       "subcategory": "christmas",
-      "featured": false,
+      "featured": true,
       "inventory": 5,
       "name": "Candy Cane Christmas Gift Wrap Card",
       "image": "images/img_3856.jpeg",

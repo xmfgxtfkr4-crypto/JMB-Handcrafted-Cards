@@ -51,6 +51,16 @@
       "inventory": 1
     },
     {
+      "price": 4.35,
+      "subcategory": "christmas",
+      "featured": false,
+      "inventory": 5,
+      "name": "Candy Cane Christmas Gift Wrap Card",
+      "image": "images/img_3856.jpeg",
+      "description": "Wrap up your holiday wishes! This Christmas card looks like a package tied with a ribbon, with a crisp red band crossing patterned papers of rosy pink candy canes and bold peppermint stripes. A red and white die-cut candy cane adds a sweet finishing touch, and “Merry Christmas” is stamped in shiny white embossing on the ribbon. Inside, a red heat-embossed sentiment reads “May all your days be full of cheer.” It’s a playful, sweet card for anyone who loves a candy-cane Christmas.",
+      "category": "holiday"
+    },
+    {
       "name": "Lily of the Valley Silhouette",
       "price": 4,
       "image": "images/IMG_0407.jpeg",

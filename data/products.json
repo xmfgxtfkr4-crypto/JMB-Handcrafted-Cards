@@ -475,7 +475,7 @@
       "subcategory": "",
       "featured": false,
       "inventory": 1,
-      "name": "Pastel Butterflies Thinking of You SET (5)",
+      "name": "Pastel Butterflies Thinking of You (SET of 5)",
       "image": "images/img_3817.jpeg",
       "description": "This set of five cards has a bold black die-cut “thinking of you” sentiment across a band of floral patterned paper. The five pastel colors are apricot, sage, lavender, soft yellow, and sky blue. A white embossed panel, black layering, and three fluttering die-cut butterflies finish each front. Inside, a sketched butterfly stamp accompanies the message “Hope is a beautiful thing that flutters in the soul.” Each card comes with a matching envelope, finished with a larger sketched butterfly stamp.",
       "category": "thinking-of-you"
@@ -619,6 +619,66 @@
       "image": "images/img_3922.jpeg",
       "description": "This playful set brings a little Paris to every envelope, with mint scooters, a stack of pink and blue macarons tied with a bow, \"Bonjour,\" \"Ooh La La\" with a glittery heel, a \"dreamer\" girl over \"je t'aime\" perfume bottles, and heart-shaped sunglasses. Each card is layered in pink, mint, black, and white. It's a fun mix for friends, birthdays, or anyone who loves all things French.",
       "category": "thinking-of-you"
+    },
+    {
+      "price": 16,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Rose Line Art Anniversary (SET of 5)",
+      "image": "images/img_3924.jpeg",
+      "description": "Elegant black line-art roses and wildflowers are framed in black on crisp white. Two cards carry a script \"Happy Anniversary\" with clear rhinestones. The other three have a hand-colored rose in deep red, peach, or blush. The set is classic and versatile, with a style to suit every couple.",
+      "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Midnight Blue Anniversary",
+      "image": "images/img_3925.jpeg",
+      "description": "White heat-embossed florals and swirls shine against a rich navy background. In the center, a white oval holds a \"Happy Anniversary\" sentiment with iridescent gems. Inside, \"Grateful for the everyday magic of you\" makes it a heartfelt choice for a spouse or a special couple.",
+      "category": "congratulations"
+    },
+    {
+      "price": 5.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Golden Sunflower Anniversary",
+      "image": "images/img_3926.jpeg",
+      "description": "Three hand-colored sunflowers with gold-embossed details bloom across an olive green background, framed by a shimmering gold foil mat. A stitched white label with a gold-embossed \"Happy Anniversary\" ties it together. It's warm, rich, and glowing, perfect for celebrating years together.",
+      "category": "congratulations"
+    },
+    {
+      "price": 10,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Welcome Baby Boy Owl (SET of 3)",
+      "image": "images/img_3927.jpeg",
+      "description": "Three hand-colored baby owls, one in a party hat and two with bow ties, each sit in a diamond frame with crisscrossed strips. The backgrounds are stars, stripes, and baby animals in soft blue, green, and brown. Each card says \"Welcome Baby Boy!\" and has a sweet \"tiny fingers, tiny toes\" verse inside. They're adorable for baby showers and new arrivals.",
+      "category": "congratulations"
+    },
+    {
+      "price": 8.7,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Welcome Baby Girl Rocking Horse (SET of 2)",
+      "image": "images/img_3928.jpeg",
+      "description": "This set of two cards each have a gray die-cut rocking horse in layered circles. One card uses coral, butter yellow, and mint over a soft plaid background. The other uses yellow, coral, and mint over pretty florals. Each card has a stitched banner that reads \"Welcome Baby Girl!\" and the sweet \"tiny fingers, tiny toes\" verse inside. They're a charming pair for welcoming a new little girl.",
+      "category": "congratulations"
+    },
+    {
+      "price": 20,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Little Onesie Baby (SET of 6)",
+      "description": "Each card has a onesie-shaped window that shows polka dots, stripes, or hearts. A die-cut bow and a scalloped stitched frame dress it up. The colors are yellow, green, orange, and taupe, so the set works for any baby. The front reads \"Wishing you lots of joy,\" and \"A big welcome to your new baby\" is inside, which makes it a great set to keep on hand for baby showers.",
+      "image": "images/img_3929.jpeg",
+      "category": "congratulations"
     }
   ]
 }

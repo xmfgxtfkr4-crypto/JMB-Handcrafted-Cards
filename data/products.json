@@ -569,6 +569,46 @@
       "image": "images/img_3915.jpeg",
       "description": "A tag-style focal point sits on lush watercolor florals in pink, lavender, and green. The tag has inked edges, a stamped grid, and a die-cut lavender sprig with a little purple bow, plus the sentiment \"Hope you are feeling better.\" Inside, \"Take care of yourself\" adds one more gentle wish. It's soft and soothing, made for brightening someone's recovery.",
       "category": "thinking-of-you"
+    },
+    {
+      "price": 3.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 3,
+      "name": "Midnight Garden Florals",
+      "image": "images/img_3918.jpeg",
+      "description": "Peach peonies, deep red blooms, and cream anemones stand out against a rich black background. The design is framed in bold red and mounted on a cream base. The front is blank, so you can use it for a birthday, a thank-you, or simply because.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 3.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 4,
+      "name": "Polka Dot Peony",
+      "image": "images/img_3919.jpeg",
+      "description": "A big peach peony, a raspberry bloom, and a cream anemone are surrounded by watercolor greenery on a cream background with playful black polka dots. A coral mat and a cream base complete the card. Fresh, cheerful, and blank inside, it works for any occasion.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 3.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 5,
+      "name": "Wildflowers After Dark",
+      "image": "images/img_3920.jpeg",
+      "description": "Pink blossoms, lavender sprigs, yellow buds, and lush greenery spill across a deep charcoal background. It's layered over black and set on a rich purple base for a dramatic, garden-at-dusk feel. The card is blank inside, ready for whatever you'd like to say.",
+      "category": "thinking-of-you"
+    },
+    {
+      "price": 20,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Scattered Roses (SET of 6)",
+      "image": "images/img_3921.jpeg",
+      "description": "Soft pink watercolor roses, tiny wildflowers, and delicate sprigs of lavender are scattered across a creamy textured background. A mint mat and a light pink base keep it sweet and airy. It's a pretty, blank-inside card for birthdays, thank-yous, or a note to a friend. Set of six.",
+      "category": "thinking-of-you"
     }
   ]
 }

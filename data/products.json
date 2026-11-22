@@ -679,6 +679,16 @@
       "description": "Each card has a onesie-shaped window that shows polka dots, stripes, or hearts. A die-cut bow and a scalloped stitched frame dress it up. The colors are yellow, green, orange, and taupe, so the set works for any baby. The front reads \"Wishing you lots of joy,\" and \"A big welcome to your new baby\" is inside, which makes it a great set to keep on hand for baby showers.",
       "image": "images/img_3929.jpeg",
       "category": "congratulations"
+    },
+    {
+      "price": 10,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Lavender & Honey Bee (SET of 3)",
+      "image": "images/img_3916.jpeg",
+      "description": "This set mixes lavender, honey, and blooms in soft purple, gold, and cream. Two cards have strips of patterned paper on a lavender background: bees on honeycomb, florals, and lavender sprigs. One features a honey jar and the other a floral tag, and both have a \"Hello\" banner and purple accents. The third card has a vintage notebook-paper panel over dark florals with purple and cream roses, plus a \"my favorite things\" sentiment. It's a cozy set for saying hello, thank you, or thinking of you.",
+      "category": "thinking-of-you"
     }
   ]
 }

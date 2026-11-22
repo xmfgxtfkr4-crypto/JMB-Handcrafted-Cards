@@ -121,16 +121,6 @@
       "inventory": 1
     },
     {
-      "name": "Most Loved",
-      "price": 4,
-      "image": "images/IMG_1001.jpeg",
-      "description": "White-on-white embossed floral card with teal border anniversary card - \"You are most loved\"",
-      "category": "congratulations",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "Rose Garden Anniversary",
       "price": 4,
       "image": "images/IMG_1011.jpeg",
@@ -481,16 +471,6 @@
       "category": "thinking-of-you"
     },
     {
-      "price": 4.35,
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1,
-      "name": "I Can Do All Things Through Christ – Philippians 4:13",
-      "image": "images/img_3815.jpeg",
-      "description": "A watercolor pine forest scene with purple wildflowers sits on a side-fold card tied with a bright orchid ribbon. The inside features a scripture verse with a small leafy sprig. A thoughtful card to encourage someone who needs strength.",
-      "category": "thinking-of-you"
-    },
-    {
       "price": 16,
       "subcategory": "",
       "featured": false,
@@ -564,7 +544,7 @@
       "price": 4.35,
       "subcategory": "",
       "featured": false,
-      "inventory": 3,
+      "inventory": 2,
       "image": "images/img_3821.jpeg",
       "name": "Coral and Evergreen Floral Encouragement",
       "description": "This fold-open card has bold peach and coral roses with deep green leaves on a black background. An olive green grid panel is the focal point, with a die-cut leaf and sparkling gem accents. The front says “Courage is being really scared and doing it anyway.” Inside, the message reads “You’ve got this.”",

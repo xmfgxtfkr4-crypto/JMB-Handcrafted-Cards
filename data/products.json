@@ -709,6 +709,16 @@
       "image": "images/img_3940.jpeg",
       "description": "This card mixes bold black-and-white patterns: crisp crosses and modern geometric lines. A black panel shows \"CELEBRATE\" in white embossed letters. Beside it, \"Your new job\" is in die-cut black letters with three white enamel dots. It's sleek and modern, perfect for congratulating someone on a fresh start.",
       "category": "congratulations"
+    },
+    {
+      "price": 4.36,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Celebrate Your New Job (Blue & Silver)",
+      "image": "images/img_3941.jpeg",
+      "description": "Rich blue embossed swirls frame a black panel where \"CELEBRATE\" sparkles in holographic glitter, set on a shiny silver mat. Die-cut black letters spell out \"Your new job\" to finish it off. It's polished and eye-catching for marking a big career milestone.",
+      "category": "congratulations"
     }
   ]
 }

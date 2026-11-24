@@ -809,6 +809,46 @@
       "image": "images/img_3950.jpeg",
       "description": "A lush wreath in deep evergreen and olive is set on cream cardstock embossed with swirls. \"home\" is in soft mint, \"sweet\" is in shining gold, and a gold mat frames the panel. Inside, \"Welcome\" is in gold. It's classic and welcoming for new homeowners.",
       "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Mauve Blooms Congratulations",
+      "image": "images/img_3951.jpeg",
+      "description": "Hand-colored mauve blooms and soft green leaves fill a crisp white panel, layered on black and mauve. \"CONGRATULATIONS\" is gold-embossed on a black strip, with a few sparkling gems. Inside, \"Here's to beautiful beginnings & happily ever afters\" makes it perfect for weddings and engagements.",
+      "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Painted Florals Wedding Fun-Fold",
+      "image": "images/img_3952.jpeg",
+      "description": "This fun-fold card opens to show painterly roses and blooms in coral, blush, cream, and slate blue. A \"Congratulations\" panel is decorated with a die-cut coral flower, dark green leaves, and glittery accents. Inside, \"Here's to beautiful beginnings & happily ever afters\" is stamped on kraft. It's a special choice for weddings, engagements, or anniversaries.",
+      "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Lavender Sending Best Wishes",
+      "image": "images/img_3953.jpeg",
+      "description": "Watercolor lavender paper sits on a deep purple mat with a deckled edge, decorated with die-cut lavender and greenery. \"Sending best wishes\" is in sparkling silver on a white circle, with purple accents. It's a lovely all-occasion card for birthdays, new adventures, or just because.",
+      "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Lavender This Is Your Day",
+      "image": "images/img_3954.jpeg",
+      "description": "Watercolor lavender paper sits on a deep purple mat with a deckled edge, decorated with die-cut lavender and greenery. \"This is your day\" shimmers in silver on a white circle, with purple accents. It's a pretty choice for birthdays, graduations, or any day that's all about them.",
+      "category": "birthday"
     }
   ]
 }

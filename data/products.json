@@ -849,6 +849,26 @@
       "image": "images/img_3954.jpeg",
       "description": "Watercolor lavender paper sits on a deep purple mat with a deckled edge, decorated with die-cut lavender and greenery. \"This is your day\" shimmers in silver on a white circle, with purple accents. It's a pretty choice for birthdays, graduations, or any day that's all about them.",
       "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "christmas",
+      "featured": false,
+      "inventory": 1,
+      "name": "Let It Snow Snowmen",
+      "image": "images/img_3975.jpeg",
+      "description": "Cheerful snowmen in red hats and cozy scarves fill a minty green panel with a die-cut black \"Let It Snow\" and frosty accents. A trio of stamped snowmen waves from inside. It's a fun, festive card for the winter and holiday season.",
+      "category": "holiday"
+    },
+    {
+      "price": 4.22,
+      "subcategory": "christmas",
+      "featured": false,
+      "inventory": 1,
+      "name": "Holly Season's Greetings",
+      "image": "images/img_3988.jpeg",
+      "description": "Soft pink holly leaves and red berries are framed by red bands. The sentiment panel has an outlined holly sprig, red gem berries, and a black \"Season's Greetings.\" Inside, \"May your season be filled with joy\" sits beside another holly sprig. It's a classic, cheerful card for the holidays.",
+      "category": "holiday"
     }
   ]
 }

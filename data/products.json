@@ -789,6 +789,26 @@
       "image": "images/img_3948.jpeg",
       "description": "A red house sits between two navy houses, with pine trees on rolling hills. Three red hearts surround the \"Welcome\" cloud. \"Home. Sweet. Home.\" is stamped inside. It's a sweet card for housewarmings and new neighbors.",
       "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Home Sweet Home Wreath (Sage & Gold)",
+      "image": "images/img_3949.jpeg",
+      "description": "A layered wreath in sage and mint greens rests on cream cardstock embossed with swirls. \"home sweet home\" is in gold foil script beside it, and the whole panel is framed in gold. \"Welcome\" is in gold inside. It's elegant and timeless for housewarming gifts.",
+      "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Home Sweet Home Wreath (Evergreen & Mint)",
+      "image": "images/img_3950.jpeg",
+      "description": "A lush wreath in deep evergreen and olive is set on cream cardstock embossed with swirls. \"home\" is in soft mint, \"sweet\" is in shining gold, and a gold mat frames the panel. Inside, \"Welcome\" is in gold. It's classic and welcoming for new homeowners.",
+      "category": "congratulations"
     }
   ]
 }

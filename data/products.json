@@ -749,6 +749,26 @@
       "image": "images/img_3944.jpeg",
       "description": "A layered \"congrats\" in white, black, and silver foil sits on a clean white panel with a stitched border. Below it, an open die-cut butterfly shimmers with holographic color. It's simple, striking, and full of sparkle.",
       "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Teal Butterfly Congrats",
+      "image": "images/img_3945.jpeg",
+      "description": "A white \"congrats\" layered over teal adds a pop of color to a clean white panel with a stitched border. A white embossed butterfly brings soft texture and a sense of new beginnings. It's fresh and understated for graduations, new jobs, or any accomplishment.",
+      "category": "congratulations"
+    },
+    {
+      "price": 5.7,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Welcome Home Hearts (Navy & Cream)",
+      "image": "images/img_3946.jpeg",
+      "description": "This cheerful neighborhood scene has navy and cream houses topped with red hearts, plus pine trees, rolling green hills, and fluffy white clouds. \"Welcome\" is stamped on a cloud, and \"Home. Sweet. Home.\" is inside. It's a warm way to greet new homeowners or new neighbors.",
+      "category": "congratulations"
     }
   ]
 }

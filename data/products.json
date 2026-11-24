@@ -729,6 +729,26 @@
       "image": "images/img_3942.jpeg",
       "description": "A strip of colorful wildflowers in pink, purple, blue, and orange is framed in deep green on a sunny golden-yellow base. A stitched banner says \"Congratulations,\" and sparkly accents add shine. It's bright and cheerful for graduations, new jobs, or any happy news.",
       "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Black & Gold Celebrate",
+      "image": "images/img_3943.jpeg",
+      "description": "Gold foil herringbone and interlocking circles shimmer against black and white. The center is a black panel with \"CELEBRATE\" in gold embossed letters, plus three gold dots. It's elegant and glamorous for birthdays, promotions, retirements, or any milestone worth toasting.",
+      "category": "congratulations"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Holographic Butterfly Congrats",
+      "image": "images/img_3944.jpeg",
+      "description": "A layered \"congrats\" in white, black, and silver foil sits on a clean white panel with a stitched border. Below it, an open die-cut butterfly shimmers with holographic color. It's simple, striking, and full of sparkle.",
+      "category": "congratulations"
     }
   ]
 }

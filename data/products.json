@@ -769,6 +769,26 @@
       "image": "images/img_3946.jpeg",
       "description": "This cheerful neighborhood scene has navy and cream houses topped with red hearts, plus pine trees, rolling green hills, and fluffy white clouds. \"Welcome\" is stamped on a cloud, and \"Home. Sweet. Home.\" is inside. It's a warm way to greet new homeowners or new neighbors.",
       "category": "congratulations"
+    },
+    {
+      "price": 5.7,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Rainbow Neighborhood Welcome",
+      "image": "images/img_3947.jpeg",
+      "description": "A row of red, yellow, aqua, and navy houses with whimsical trees sits on green hills under a blue sky. \"Welcome\" floats on a cloud, and \"Home. Sweet. Home.\" is inside. It's bright, playful, and perfect for celebrating a new home.",
+      "category": "congratulations"
+    },
+    {
+      "price": 5.7,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Welcome Home with Hearts (Red & Navy)",
+      "image": "images/img_3948.jpeg",
+      "description": "A red house sits between two navy houses, with pine trees on rolling hills. Three red hearts surround the \"Welcome\" cloud. \"Home. Sweet. Home.\" is stamped inside. It's a sweet card for housewarmings and new neighbors.",
+      "category": "congratulations"
     }
   ]
 }

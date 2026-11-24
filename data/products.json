@@ -699,6 +699,16 @@
       "image": "images/img_3917.jpeg",
       "description": "Lavender, honeybees, and vintage charm fill this set of six cards. The white embossed panels are framed in black. Each card has a layered tag or a lavender window scene, with sentiments like \"just be you\" and \"Sweet little moments.\" It's a calming set for friendship, encouragement, or just because.",
       "category": "thinking-of-you"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Celebrate Your New Job (Black & White)",
+      "image": "images/img_3940.jpeg",
+      "description": "This card mixes bold black-and-white patterns: crisp crosses and modern geometric lines. A black panel shows \"CELEBRATE\" in white embossed letters. Beside it, \"Your new job\" is in die-cut black letters with three white enamel dots. It's sleek and modern, perfect for congratulating someone on a fresh start.",
+      "category": "congratulations"
     }
   ]
 }

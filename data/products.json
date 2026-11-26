@@ -839,6 +839,56 @@
       "image": "images/img_2228.jpeg",
       "description": "A cuddly baby panda with long lashes and rosy cheeks sits on a white stitched panel framed in black. A shimmering holographic \"1\" and sparkling gems make it extra special. The heartfelt \"remembered, appreciated, celebrated\" sentiment is inside. It's an adorable choice for a first birthday.",
       "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Cheerful Tiger 1st Birthday",
+      "image": "images/img_2229.jpeg",
+      "description": "A cheerful orange tiger with a little bluebird perched on its head sits on a white stitched panel framed in black. A holographic \"1\" and sparkling gems add a bit of sparkle. Inside, a heartfelt sentiment celebrates the guest of honor. It's a fun pick for a first birthday.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Blue Elephant 1st Birthday",
+      "image": "images/img_2230.jpeg",
+      "description": "A sweet blue elephant with pink ears and a curled trunk smiles from a white stitched panel framed in black. A shimmering holographic \"1\" and sparkling gems finish it off. Inside, a heartfelt sentiment says the little one is celebrated. It's a gentle, charming card for a first birthday.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Little Lion 1st Birthday",
+      "image": "images/img_2231.jpeg",
+      "description": "A happy lion cub with a fluffy brown mane sits proudly on a white stitched panel framed in black. A holographic \"1\" and sparkling gems add a touch of shine. The heartfelt \"remembered, appreciated, celebrated\" sentiment is inside. It's a sweet way to cheer on a little one turning one.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Chameleon 1st Birthday",
+      "image": "images/img_2232.jpeg",
+      "description": "A cute green chameleon with a curly tail rests on a branch on a white stitched panel framed in black. A shimmering holographic \"1\" and sparkling gems add some sparkle. Inside, a heartfelt sentiment celebrates the birthday star. It's a unique, playful card for a first birthday.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Playful Monkey 1st Birthday",
+      "image": "images/img_2233.jpeg",
+      "description": "A giggling monkey with a curly tail and a tiny blue heart swings across a white stitched panel framed in black. A holographic \"1\" and sparkling gems add extra fun. Inside, a heartfelt sentiment says the little one is celebrated. It's a joyful pick for a first birthday.",
+      "category": "birthday"
     }
   ]
 }

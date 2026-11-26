@@ -32,7 +32,7 @@
     },
     {
       "name": "Purple Daisies",
-      "price": 3.86,
+      "price": 4.35,
       "image": "images/IMG_0211.jpeg",
       "description": "Cheerful purple daisies with green leaves on a lavender-bordered birthday card. Other colors available by request.",
       "category": "birthday",
@@ -178,16 +178,6 @@
       "image": "images/img_2223.jpeg",
       "name": "Happy Birthday Postage Stamp",
       "description": "Birthday wishes sent with cake and love on hand-colored postage stamp image",
-      "category": "birthday"
-    },
-    {
-      "price": 4,
-      "subcategory": "",
-      "featured": false,
-      "inventory": 2,
-      "image": "images/img_2224.jpeg",
-      "name": "Happy Hippo First Birthday",
-      "description": "Say happy birthday with a happy hippo! Customize with any age.",
       "category": "birthday"
     },
     {
@@ -641,7 +631,7 @@
       "category": "congratulations"
     },
     {
-      "price": 4.36,
+      "price": 4.35,
       "subcategory": "",
       "featured": false,
       "inventory": 1,

@@ -789,6 +789,56 @@
       "image": "images/img_3988.jpeg",
       "description": "Soft pink holly leaves and red berries are framed by red bands. The sentiment panel has an outlined holly sprig, red gem berries, and a black \"Season's Greetings.\" Inside, \"May your season be filled with joy\" sits beside another holly sprig. It's a classic, cheerful card for the holidays.",
       "category": "holiday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Purple Hippo 1st Birthday",
+      "image": "images/img_2224.jpeg",
+      "description": "A sweet purple hippo with a happy grin stars on a white stitched panel framed in black. The \"1\" is shimmering holographic, and sparkling gems add a touch of fun. Inside it says \"It's your time to be remembered, to feel appreciated, and to know you're celebrated!\" It's a charming way to mark a little one's big first year.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Little Gator 1st Birthday",
+      "image": "images/img_2225.jpeg",
+      "description": "A smiling green gator with rosy cheeks crawls across a white stitched panel framed in black. A holographic \"1\" and sparkling gems add some shine. The heartfelt \"remembered, appreciated, celebrated\" sentiment is inside. It's playful and sweet for a first birthday.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Happy Zebra 1st Birthday",
+      "image": "images/img_2226.jpeg",
+      "description": "A grinning baby zebra with bold stripes prances across a white stitched panel framed in black. A shimmering holographic \"1\" and sparkling gems finish the classic black-and-white look. Inside, a heartfelt sentiment celebrates the birthday star. It's perfect for a first birthday party.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Red Parrot 1st Birthday",
+      "image": "images/img_2227.jpeg",
+      "description": "A bright red parrot with rainbow-tipped wings perches on a white stitched panel framed in black. A holographic \"1\" and sparkling gems add extra cheer. Inside, a heartfelt sentiment reminds the little one they're celebrated. It's a colorful pick for a first birthday.",
+      "category": "birthday"
+    },
+    {
+      "price": 4.35,
+      "subcategory": "",
+      "featured": false,
+      "inventory": 1,
+      "name": "Sweet Panda 1st Birthday",
+      "image": "images/img_2228.jpeg",
+      "description": "A cuddly baby panda with long lashes and rosy cheeks sits on a white stitched panel framed in black. A shimmering holographic \"1\" and sparkling gems make it extra special. The heartfelt \"remembered, appreciated, celebrated\" sentiment is inside. It's an adorable choice for a first birthday.",
+      "category": "birthday"
     }
   ]
 }

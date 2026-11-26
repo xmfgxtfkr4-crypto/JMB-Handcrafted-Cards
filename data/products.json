@@ -131,16 +131,6 @@
       "inventory": 3
     },
     {
-      "name": "Chrysanthemum Birthday",
-      "price": 4,
-      "image": "images/IMG_1911.jpeg",
-      "description": "November's birth month flower! Stunning blue chrysanthemum with green foliage on a minimalist black-bordered birthday card. Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
       "name": "New Baby Girl (Pink & Yellow)",
       "price": 4,
       "image": "images/IMG_2173.jpeg",
@@ -208,16 +198,6 @@
       "image": "images/img_2224.jpeg",
       "name": "Happy Hippo First Birthday",
       "description": "Say happy birthday with a happy hippo! Customize with any age.",
-      "category": "birthday"
-    },
-    {
-      "price": 4,
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1,
-      "name": "Sophisticated Rose Birthday",
-      "image": "images/img_2332.jpeg",
-      "description": "Sophisticated rose with gold embossed detail and \"Happy Birthday\" sentiment. Interior sentiment is \"Celebrating You\" with an elegant outline of a rose. Available in red, yellow, or berry rose.",
       "category": "birthday"
     },
     {

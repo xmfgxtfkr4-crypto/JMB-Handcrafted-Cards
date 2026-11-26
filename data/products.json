@@ -32,13 +32,13 @@
     },
     {
       "name": "Purple Daisies",
-      "price": 4,
+      "price": 3.86,
       "image": "images/IMG_0211.jpeg",
       "description": "Cheerful purple daisies with green leaves on a lavender-bordered birthday card. Other colors available by request.",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "Congrats Graduate!",
@@ -59,16 +59,6 @@
       "image": "images/img_3856.jpeg",
       "description": "Wrap up your holiday wishes! This Christmas card looks like a package tied with a ribbon, with a crisp red band crossing patterned papers of rosy pink candy canes and bold peppermint stripes. A red and white die-cut candy cane adds a sweet finishing touch, and “Merry Christmas” is stamped in shiny white embossing on the ribbon. Inside, a red heat-embossed sentiment reads “May all your days be full of cheer.” It’s a playful, sweet card for anyone who loves a candy-cane Christmas.",
       "category": "holiday"
-    },
-    {
-      "name": "Lily of the Valley Silhouette",
-      "price": 4,
-      "image": "images/IMG_0407.jpeg",
-      "description": "Bold pink card with intricate white floral die-cut silhouette and \"Happy Birthday\" sentiment. Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
     },
     {
       "name": "Silver Anniversary Roses",
@@ -101,16 +91,6 @@
       "inventory": 5
     },
     {
-      "name": "Poppy Fields",
-      "price": 5,
-      "image": "images/img_2331.jpeg",
-      "description": "Stunning poppies with gold detail on a bold black-bordered birthday card. Available in purple.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 3
-    },
-    {
       "name": "Wedding Cake Wishes",
       "price": 4,
       "image": "images/IMG_0997.jpeg",
@@ -132,43 +112,23 @@
     },
     {
       "name": "Aster Birthday",
-      "price": 4,
+      "price": 4.35,
       "image": "images/IMG_1213.jpeg",
       "description": "Hand-colored purple aster with yellow center on a postage stamp-style birthday card",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Red Rose Ribbon",
-      "price": 4,
-      "image": "images/IMG_1536.jpeg",
-      "description": "Classic red roses with satin ribbon stripes and gold embossed sentiment on a textured birthday card. Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
-    },
-    {
-      "name": "Burgundy Rose",
-      "price": 4,
-      "image": "images/IMG_1561.jpeg",
-      "description": "Deep burgundy rose with embossed swirl background and matching interior - \"Happy Birthday.\" Other colors available by request.",
-      "category": "birthday",
-      "subcategory": "",
-      "featured": false,
-      "inventory": 1
+      "inventory": 4
     },
     {
       "name": "Marigold Birthday",
-      "price": 4,
+      "price": 4.35,
       "image": "images/IMG_1910.jpeg",
       "description": "Vibrant orange marigold bloom with detailed green leaves on a clean white birthday card",
       "category": "birthday",
       "subcategory": "",
       "featured": false,
-      "inventory": 1
+      "inventory": 3
     },
     {
       "name": "Chrysanthemum Birthday",
